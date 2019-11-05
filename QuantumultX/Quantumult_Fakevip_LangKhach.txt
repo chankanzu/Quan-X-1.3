@@ -18,12 +18,12 @@ server=1.0.0.1
 ;https://raw.githubusercontent.com/crossutility/Quantumult-X/master/server.txt, tag=Sample-01
 
 [filter_remote]
-https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hostsVN-quantumult-rule.conf,force-policy=reject, tag= hostvn, enabled=true
+https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/Config/hostsVN-quantumult-rule.conf?token=AKBHMCGN22FDRJTSVFAKSQC5YGFPA,force-policy=reject, tag= hostvn, enabled=true
 
 
 [rewrite_remote]
-https://raw.githubusercontent.com/langkhach270389/Scripting/master/QuantumultX/Fake_Vip.txt, tag=Fake_vip_LangKhach, enabled=true
-https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hostsVN-quantumultX-rewrite.conf, tag=HostVn, enabled=true
+https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/QuantumultX/Fake_Vip.txt?token=AKBHMCFO5BXPAGUYLS47NOK5YGFWU, tag=FakeVIP_COPY, enabled=true
+https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/Config/hostsVN-quantumultX-rewrite.conf?token=AKBHMCEBZKVW7YGIM4GGGMS5YGFTY, tag=HostVn, enabled=true
 
 [server_local]
 
