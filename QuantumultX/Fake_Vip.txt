@@ -127,7 +127,7 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 ^https:\/\/subs\.studycat\.net\/1\/validatepurchase$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/00FunEng1.1.1.js
 
 #Enless
-^http:\/\/production\.platform\.originatorkids\.com\/rest\/catalog\/update$ url script-request-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/004_Req_endless_learning_school.js
+#http:\/\/production\.platform\.originatorkids\.com\/rest\/catalog\/update$___url___script-request-body #https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/004_Req_endless_learning_school.js
 
 #http:\/\/production\.platform\.originatorkids\.com\/rest\/init 
 
