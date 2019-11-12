@@ -9,7 +9,7 @@ obj= {
 		"mobile_url": "https:\/\/m.littlefox.com\/en",
 		"users": [{
 			"id": "U201811112340560107",
-			"type": "M",
+			"type": "S",
 			"name": " ",
 			"nickname": "Khanh Du",
 			"gender": "M",
