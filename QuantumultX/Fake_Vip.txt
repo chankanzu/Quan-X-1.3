@@ -138,4 +138,4 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 ^https:\/\/revoapi\.moneylover\.me\/api\/status$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/007MoneyLover.js
 
 #LittleFox
-^https:\/\/apis\.littlefox\.com\/api\/v1\/auth\/me$ https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/LittleFox.js
+^https:\/\/apis\.littlefox\.com\/api\/v1\/auth\/me$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/LittleFox.js
