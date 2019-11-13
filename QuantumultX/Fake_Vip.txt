@@ -139,3 +139,6 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 
 #LittleFox
 ^https:\/\/apis\.littlefox\.com\/api\/v1\/auth\/* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/LittleFox.js
+
+#Buy
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-location-with-script.js
