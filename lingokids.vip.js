@@ -25,7 +25,7 @@ obj= {
 			"auto_renew_status": true
 		}, {
 			"id": 741222,
-			"status": "unpaid",
+			"status": "paid",
 			"state": "expired_trial",
 			"product": "unlimited",
 			"platform": "apple",
@@ -34,7 +34,7 @@ obj= {
 			"plan_id": "lk.ios.s1m.t1m.p15.v1",
 			"duration_unit": "months",
 			"duration_value": 1,
-			"auto_renew_status": false
+			"auto_renew_status": true
 		}],
 	},
 		"auth": {
