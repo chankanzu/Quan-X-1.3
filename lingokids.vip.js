@@ -4,8 +4,6 @@ obj= {
 	"status": "ok",
 	"info": {
 		"id": 10855198,
-		"anonymous_id": "03cc9fa0-c17f-11e9-afc8-355405cd2b21",
-		"email": "svcntnk42a1@gmail.com",
 		"cohort": "R",
 		"country": "vn",
 		"provider": "facebook",
