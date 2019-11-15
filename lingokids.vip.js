@@ -36,7 +36,7 @@ obj= {
 			"duration_value": 1,
 			"auto_renew_status": false
 		}],
-	}
+	},
 		"auth": {
 		"token": "b2c0af05-40a5-4e97-a339-7b71974ecac5"
 	},
