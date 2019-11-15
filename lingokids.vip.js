@@ -439,7 +439,7 @@ obj= {
 		"require_privacy_policy_acceptance": false,
 		"display_newsletter_opt_in": false,
 		"notifications_extended_body": true,
-		"enable_community": false,
+		"enable_community": true,
 		"age_based_covers": false
 	}
 	
