@@ -26,7 +26,7 @@ obj= {
 			"auto_renew_status": true
 		}, {
 			"id": 741222,
-			"status": "unpaid",
+			"status": "trial",
 			"state": "expired_trial",
 			"product": "unlimited",
 			"platform": "apple",
