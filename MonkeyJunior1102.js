@@ -18,6 +18,7 @@ obj= {
 		"current_time": 1573847309,
 		"show_pay": false,
 		"userInfo": {
+			"email": "chankanzu@gmail.com",
 			"phone": null,
 			"name": "",
 			"address": "",
@@ -53,7 +54,6 @@ obj= {
 		"limit_seconds_offline": 259200,
 		"is_submit": false
 	}
-
 
 };
 
