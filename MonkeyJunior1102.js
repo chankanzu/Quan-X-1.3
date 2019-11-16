@@ -19,6 +19,7 @@ obj= {
 		"show_pay": false,
 		"userInfo": {
 			"email": "",
+			"phone": "",
 			"name": "",
 			"address": "",
 			"time_updated": 1573862766,
