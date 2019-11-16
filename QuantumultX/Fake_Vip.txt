@@ -119,7 +119,8 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 ^https:\/\/api\.blinkist\.com\/v4\/me\/access$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/blinkist1.js
 
 #sololearn 
-^https:\/\/api\.sololearn\.com\/(Profile\/GetProfile$|authenticateDevice$) url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/sololearn.js
+^https:\/\/api\.sololearn\.com\/Profile\/GetProfile$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/sololearn2.js
+^https:\/\/api\.sololearn\.com\/authenticateDevice$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/sololearn1.js
 
 #kinemaster
 ^https:\/\/api-kinemaster-assetstore\.nexstreaming\.com\/.*\/product\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/kinemaster.js
