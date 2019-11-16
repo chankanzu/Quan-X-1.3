@@ -1,6 +1,7 @@
 var obj = JSON.parse($response.body);
 
 obj= {
+	{
 	"status": "success",
 	"message": "success",
 	"code": 200,
@@ -8,26 +9,24 @@ obj= {
 		"country_code": "vi-VN",
 		"is_vn": true,
 		"purchased": {
-			"pay_inapp": true,
-			"time_expire": 0,
-			"product_list": ["com.earlystart.alllanguage"],
+			"pay_inapp": false,
+			"time_expire": 4974896723,
+			"product_list": [],
 			"is_active": true,
 			"is_free": false
 		},
 		"is_show_ads_app": [40, 50, 51],
-		"current_time": 1573847309,
+		"current_time": 1573862841,
 		"show_pay": false,
 		"userInfo": {
-			"email": "chankanzu@gmail.com",
-			"phone": null,
+			"email": "",
 			"name": "",
 			"address": "",
-			"time_updated": 1573222978,
-			"config_item": "http:\/\/www.api.monkeyuni.net\/data_app\/user_info\/json_config_item_1209038_2.zip",
-			"users_id": 1209038,
+			"time_updated": 1573862766,
+			"config_item": "http:\/\/www.api.monkeyuni.net\/data_app\/user_info\/json_config_item_1039489_2.zip",
+			"users_id": 1039489,
 			"max_profile": 3
 		},
-		"day_readed": "",
 		"notify": [{
 			"id": 106,
 			"title": "MONKEY STORIES VINH D\u1ef0 \u0110\u1ea0T TOP 1 CH\u01af\u01a0NG TR\u00ccNH GI\u00c1O D\u1ee4C \u0110\u01af\u1ee2C T\u1ea2I V\u1ec0 NHI\u1ec0U NH\u1ea4T T\u1ea0I VI\u1ec6T NAM",
@@ -54,6 +53,7 @@ obj= {
 		"limit_seconds_offline": 259200,
 		"is_submit": false
 	}
+}
 
 };
 
