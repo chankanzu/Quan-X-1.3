@@ -1,7 +1,6 @@
 var obj = JSON.parse($response.body);
 
 obj= {
-	{
 	"status": "success",
 	"message": "success",
 	"code": 200,
@@ -50,10 +49,9 @@ obj= {
 			"version_required": "0",
 			"time_remind": 3
 		},
-		"limit_seconds_offline": 259200,
+		"limit_seconds_offline": 2999959200,
 		"is_submit": false
 	}
-}
 
 };
 
