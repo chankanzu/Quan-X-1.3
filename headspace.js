@@ -2,7 +2,6 @@
 var obj = JSON.parse($response.body);
 
 obj= {
-{
 	"links": {
 		"self": "/subscription/user-subscriptions/{userSubscriptionId}"
 	},
@@ -83,7 +82,6 @@ obj= {
 			}
 		}
 	}
-}
 	
 };
 $done({body: JSON.stringify(obj)});
