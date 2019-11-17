@@ -2,6 +2,7 @@
 var obj = JSON.parse($response.body);
 
 obj= {
+{
 	"links": {
 		"self": "/subscription/user-subscriptions/{userSubscriptionId}"
 	},
@@ -12,6 +13,10 @@ obj= {
 			"id": "HSSUBS_B2CSUBSCRIBER",
 			"name": "2 - Subscriber",
 			"prices": [{
+				"price": 9.95,
+				"currency": "EUR",
+				"symbol": "%E2%82%AC"
+			}, {
 				"price": 7.95,
 				"currency": "GBP",
 				"symbol": "%C2%A3"
@@ -19,10 +24,6 @@ obj= {
 				"price": 12.95,
 				"currency": "USD",
 				"symbol": "%24"
-			}, {
-				"price": 9.95,
-				"currency": "EUR",
-				"symbol": "%E2%82%AC"
 			}],
 			"subscriptionId": "HSSUBS_B2CSUBSCRIBER"
 		}
@@ -47,13 +48,13 @@ obj= {
 			"id": "HSUSUB_E4WLBJPAPZI8YY81",
 			"userSubscriptionId": "HSUSUB_E4WLBJPAPZI8YY81",
 			"startDate": "2019-11-17T15:45:32.0+0000",
-			"endDate": "2120-11-17T15:45:32.0+0000",
+			"endDate": "2020-11-17T15:45:32.0+0000",
 			"status": "ACTIVE",
 			"paymentSchedule": "EVERGREEN",
 			"nextRenewalDate": "2220-11-17T15:45:32.0+0000",
 			"inFinalPeriod": false,
 			"inLast30Days": true,
-			"isLifetime": true,
+			"isLifetime": false,
 			"cancelled": false,
 			"freeTrialEndDate": "2119-12-01T15:45:32.0+0000",
 			"iapOriginalTransactionId": "590000448468341",
@@ -82,8 +83,9 @@ obj= {
 			}
 		}
 	}
+}
+	
 };
-
 $done({body: JSON.stringify(obj)});
 
 //
