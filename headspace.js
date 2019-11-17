@@ -54,7 +54,7 @@ obj= {
 			"nextRenewalDate": "2220-11-17T15:45:32.0+0000",
 			"inFinalPeriod": false,
 			"inLast30Days": true,
-			"isLifetime": false,
+			"isLifetime": true,
 			"cancelled": false,
 			"freeTrialEndDate": "2119-12-01T15:45:32.0+0000",
 			"iapOriginalTransactionId": "590000448468341",
