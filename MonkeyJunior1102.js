@@ -9,7 +9,7 @@ obj= {
 		"country_code": "vi-VN",
 		"is_vn": true,
 		"purchased": {
-			"pay_inapp": false,
+			"pay_inapp": true,
 			"time_expire": 1974896723,
 			"product_list": [],
 			"is_active": true,
@@ -51,7 +51,7 @@ obj= {
 			"version_required": "0",
 			"time_remind": 3
 		},
-		"limit_seconds_offline": 259200,
+		"limit_seconds_offline": 2599999200,
 		"is_submit": false
 	}
 }
