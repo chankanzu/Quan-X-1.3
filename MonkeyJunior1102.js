@@ -1,6 +1,7 @@
 var obj = JSON.parse($response.body);
 
 obj= {
+{
 	"status": "success",
 	"message": "success",
 	"code": 200,
@@ -9,20 +10,20 @@ obj= {
 		"is_vn": true,
 		"purchased": {
 			"pay_inapp": false,
-			"time_expire": 4974896723,
+			"time_expire": 1974896723,
 			"product_list": [],
 			"is_active": true,
 			"is_free": false
 		},
 		"is_show_ads_app": [40, 50, 51],
-		"current_time": 1573862841,
+		"current_time": 1574012803,
 		"show_pay": false,
 		"userInfo": {
 			"email": "",
-			"phone": "",
+			"phone": "0984620985",
 			"name": "",
 			"address": "",
-			"time_updated": 1573862766,
+			"time_updated": 1574012795,
 			"config_item": "http:\/\/www.api.monkeyuni.net\/data_app\/user_info\/json_config_item_1039489_2.zip",
 			"users_id": 1039489,
 			"max_profile": 3
@@ -50,10 +51,11 @@ obj= {
 			"version_required": "0",
 			"time_remind": 3
 		},
-		"limit_seconds_offline": 2999959200,
+		"limit_seconds_offline": 259200,
 		"is_submit": false
 	}
-
+}
+	
 };
 
 $done({body: JSON.stringify(obj)});
