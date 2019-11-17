@@ -147,8 +147,7 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-location-with-script.js
 
 #MonkeyJunior
-^https:\/\/www\.api\.monkeyuni\.net\/api\/v1\/mobile\/account\/load-update* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/MonkeyJunior1102.js
-^https:\/\/www\.api\.monkeyuni\.net\/api\/v1\/mobile\/authen\/registered$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/MonkeyJunior1103.js
+^https:\/\/www\.api\.monkeyuni\.net\/api\/v1\/mobile\/account\/load-update?app_id=2&device_id=5186285&os=ios&info=&subversion=24.3.7&device_type=4&lang=vi-VN&is_test=0$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/MonkeyJunior1102.js
 
 #headspace.com
 ^https:\/\/api\.prod\.headspace\.com\/subscription\/user-subscriptions?userId=HSUSER_AQ4C06TQNY80IET3$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/headspace.js
