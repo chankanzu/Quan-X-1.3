@@ -35,7 +35,7 @@ obj= {
 			"name": "Annual (14 day trial)",
 			"description": "An iOS monthly subscription with a 14 day free trial",
 			"code": "IOSIAP_FT_14D_ANNUAL",
-			"numMonths": 12,
+			"numMonths": 36,
 			"isGift": false,
 			"voucherId": "HSVCHR_A694L22PN4LCU3FJ",
 			"platform": "iap"
@@ -48,7 +48,7 @@ obj= {
 			"id": "HSUSUB_E4WLBJPAPZI8YY81",
 			"userSubscriptionId": "HSUSUB_E4WLBJPAPZI8YY81",
 			"startDate": "2019-11-17T15:45:32.0+0000",
-			"endDate": "2020-11-17T15:45:32.0+0000",
+			"endDate": "2220-11-17T15:45:32.0+0000",
 			"status": "ACTIVE",
 			"paymentSchedule": "EVERGREEN",
 			"nextRenewalDate": "2220-11-17T15:45:32.0+0000",
@@ -60,7 +60,7 @@ obj= {
 			"iapOriginalTransactionId": "590000448468341",
 			"subscriptionDetails": {
 				"platform": "APPLE",
-				"term": 12,
+				"term": 36,
 				"version": "V2",
 				"planAffiliation": null,
 				"businessModel": "B2C",
