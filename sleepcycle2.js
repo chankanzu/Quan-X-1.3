@@ -1,7 +1,6 @@
 var obj = JSON.parse($response.body);
 
 obj= {
-{
 	"status": "ok",
 	"sessions": {
 		"status": "ok",
@@ -24,7 +23,6 @@ obj= {
 	},
 	"uid": "VTo1MTk1NzI0Nzk0NjI2MDQ4",
 	"created": 1574002316.0
-}
 };
 $done({body: JSON.stringify(obj)});
 
