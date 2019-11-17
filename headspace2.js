@@ -11,7 +11,7 @@ obj= {
 		"attributes": {
 			"voucherCode": "IOSIAP12M_AUG19V1",
 			"subscriptionPeriod": "36M",
-			"trialPeriod": null,
+			"trialPeriod": "36M",
 			"promoText": "MOST POPULAR",
 			"isDefault": true,
 			"isActive": true,
