@@ -1,3 +1,8 @@
+
+//Link:https://testflight.apple.com/v2/accounts/72ba0cc6-664d-4236-b3da-71eda8a5756f/apps/1256644412/builds/46767823/install
+
+
+
 {
 	"data": {
 		"url": "http://iosapps.itunes.apple.com/itunes-assets/Purple113/v4/fd/b8/44/fdb844c3-a87f-acef-3f4c-3e353d311b8c/pre-thinned3289147136461937490.thinned.signed.beta.ipa?accessKey=1574419060_1049195960491038477_851QD9efs5gjF298cI5%2FmXmhR5cY%2B%2F%2Fl7KM73gOLFutF1UAZtSr0aZ82XEJFpf8LRpjhNsPQBdI24vQMvwBhGAF5gWrg6HN0%2Fycbuwg1vtBgeeepWT1Dl5FeyPS7ldc4mA8YOIv62Zl0kAf1VO7DE7XzoaHW9CRYR9u6MV2Sjx7o9lwbEoLoFpMVL9AhAiVTbZUZFPDd0uQ8Z%2BaFUamzCQ%3D%3D",
