@@ -23,7 +23,7 @@ https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/Config/hostsVN-qua
 
 [rewrite_remote]
 https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/QuantumultX/Fake_Vip.txt?token=AKBHMCFO5BXPAGUYLS47NOK5YGFWU, tag=FakeVIP_COPY, enabled=true
-https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/Config/hostsVN-quantumult.conf, tag=HostVn, enabled=true
+https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/Config/hostsVN-quantumultX-rewrite.conf, tag=HostVn, enabled=true
 
 [server_local]
 
