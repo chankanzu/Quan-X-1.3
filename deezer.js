@@ -1,13 +1,15 @@
 //https://api.deezer.com/1.0/gateway.php?input=3&method=mobile_userAutolog&api_key=ZAIVAHCEISOHWAICUQUEXAEPICENGUAFAEZAIPHAELEEVAHPHUCUFONGUAPASUAY&buildId=ios11_universal&lang=us&mobile_tracking=eyJidW5kbGVfaWQiOiJjb20uZGVlemVyLkRlZXplciIsImlkZmEiOiI0RThFMDlGNC00M0RFLTQ3OTAtQjE2OS0wQ0I1NjJFMDg3ODgiLCJhZGlkIjoiIn0%3D&network=7ef5ed6684738013c9da9b048d704dc438a59d0d79675a77bdc89ecdd0bc4ee1&version=8.1.0&output=3&sid=fr9aab3800153449acc958be847064cb6355a893
 
-{
+var obj = JSON.parse($response.body);
+
+obj= {
 	"error": [],
 	"results": {
 		"USER_ID": 3257011444,
 		"PREMIUM": {
 			"OFFER_ID": "1",
 			"DATE_START": "2019-11-22 05:33:14",
-			"DATE_END": "2019-12-22 05:33:14",
+			"DATE_END": "2119-12-22 05:33:14",
 			"PLATEFORM": "ogone",
 			"TRY_AND_BUY": "1",
 			"COMMITMENT": "0",
@@ -507,4 +509,8 @@
 		},
 		"NEW_USER": false
 	}
-}
+};
+
+$done({body: JSON.stringify(obj)});
+
+//
