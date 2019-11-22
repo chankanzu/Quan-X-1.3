@@ -1,7 +1,9 @@
 //https://p59-buy.itunes.apple.com/commerce/account/subscriptions/detail?context=deeplink&prevpage=managesubscriptions&subscriptionId=590000016047020&version=2.0
 
 
-{
+var obj = JSON.parse($response.body);
+
+obj= {
 	"userInfo": {},
 	"status": 0,
 	"subscription": {
@@ -52,6 +54,10 @@
 			"paidPrice": "349.000đ"
 		},
 		"status": "Active",
-		"expirationDate": "06 Dec 2019"
+		"expirationDate": "06 Dec 2119"
 	}
-}
+};
+
+$done({body: JSON.stringify(obj)});
+
+//
