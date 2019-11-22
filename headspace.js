@@ -52,7 +52,7 @@ obj= {
 			"paymentSchedule": "EVERGREEN",
 			"nextRenewalDate": "2119-11-17T15:45:32.0+0000",
 			"inFinalPeriod": false,
-			"inLast30Days": false,
+			"inLast30Days": true,
 			"isLifetime": true,
 			"cancelled": false,
 			"freeTrialEndDate": "2119-12-01T15:45:32.0+0000",
