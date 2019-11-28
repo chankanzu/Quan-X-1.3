@@ -43,9 +43,9 @@ obj= {
 		"USER_PHONE": {},
 		"ARL": "1d1f786dc10c7ad47aed8178b72334943d06ec1848e1d9d8c75e63c5e8c0a4c5172b3572abe89e4588a8b151ed129f5f0b00c812c0e8a920b2c98bdee889612d31cfbec7e86a5e99529d8c183d39c626c7e814ade0d2de482fa1b33ea301f38f",
 		"MULTI_ACCOUNT": {
-			"enabled": false,
-			"active": false,
-			"max_children": null,
+			"enabled": true,
+			"active": true,
+			"max_children": 6,
 			"parent": null
 		},
 		"GATEKEEPER": {
