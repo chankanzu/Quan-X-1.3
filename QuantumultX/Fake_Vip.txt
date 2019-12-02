@@ -212,3 +212,6 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 
 #Fafaria
 ^https:\/\/api\.farfaria\.com\/users\/sign_in.json*  url 302 https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/Fafaria.json
+
+#Kidsup
+^https:\/\/api\.kidsup\.net\/verify$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/Kidsup.js
