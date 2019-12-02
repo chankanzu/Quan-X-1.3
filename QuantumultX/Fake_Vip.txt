@@ -207,4 +207,5 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 ^https:\/\/api\.leanplum\.com\/api$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/yousician.js
 
 #MoneyLover
-^https://static.moneylover.me/icon_pack/icon_pack.json$ url 302 https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/icon.moneylover.js
+^https:\/\/static\.moneylover\.me\/icon_pack\/icon_pack.json$ url 302 https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/icon.moneylover.js
+^https:\/\/static\.moneylover\.me\/data\/subscription_product.json$ url 302 https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/Trial.Moneylover.js
