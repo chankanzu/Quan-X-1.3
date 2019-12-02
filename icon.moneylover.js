@@ -1,6 +1,3 @@
-var obj = JSON.parse($response.body);
-
-obj= {
 [{
 	"preview": "https://static.moneylover.me/icon_pack/thumb/icon_groceries_preview.png",
 	"thumb": "https://static.moneylover.me/icon_pack/thumb/icon_groceries_thumb.png",
@@ -688,8 +685,3 @@ obj= {
 	"isFeature": false,
 	"isNew": true
 }]
-};
-
-$done({body: JSON.stringify(obj)});
-
-//
