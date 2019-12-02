@@ -1,5 +1,4 @@
-var obj = JSON.parse($response.body);
-obj={
+{
 	"t": 1550131363,
 	"data": [{
 		"metadata": {
@@ -128,6 +127,4 @@ obj={
 		"alias": ["premium_sub_month_6_a5"],
 		"has_trial": false
 	}]
-  };
-
-$done({body: JSON.stringify(obj)});
+}
