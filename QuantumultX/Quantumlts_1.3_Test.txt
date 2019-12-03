@@ -24,6 +24,7 @@ https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/Config/hostsVN-qua
 [rewrite_remote]
 https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/QuantumultX/Fake_Vip_test1.3.txt, tag=FakeVIP_COPY, enabled=true
 https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/Config/hostsVN-quantumultX-rewrite.conf, tag=HostVn, enabled=true
+https://raw.githubusercontent.com/tinycarrot/tinycarrot/master/quantumutlx/fakeVIP.tiny.rewrite.txt, tag=FakeVIP_TestTiny, enabled=true
 
 [server_local]
 
