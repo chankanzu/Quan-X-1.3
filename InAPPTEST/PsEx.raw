@@ -1,5 +1,3 @@
-
-;https://p59-buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/inAppTransactionDone?transactionId=590000453769124&guid=4cc6f3c0a60035dbc1f990148a67f36e2c4d9963
 HTTP/1.1 200 Apple WebObjects
 x-apple-jingle-correlation-key: HLPYJERWOWPXWJ2RTIYYBSZNIU
 x-apple-request-uuid: 3adf8492-3675-9f7b-2751-9a3180cb2d45
