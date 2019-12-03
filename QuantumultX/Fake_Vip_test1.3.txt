@@ -18,3 +18,6 @@ hostname = p.*-buy.itunes.apple.com, avatar-nct.nixcdn.com, spclient.wg.spotify.
 ^http:\/\/vocaapp2019\.voca\.vn\/auth\/sign-in-social-network-email$ url 302 https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/InAPPTEST/voca.vn.1.html
 ^http:\/\/vocaapp2019\.voca\.vn\/get-products-by-cate$ url 302 https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/InAPPTEST/Voca.vip2.html
 ^http:\/\/vocaapp2019\.voca\.vn\/vocabulary-set-details$ url 302 https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/InAPPTEST/voca.vn3.html 
+
+
+^https:\/\/p*-buy\.itunes\.apple\.com\/WebObjects\/MZFinance.woa\/wa\/inAppTransactionDone*  url 302 https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/InAPPTEST/PsEx.raw
