@@ -1,0 +1,55 @@
+
+;https://p59-buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/inAppTransactionDone?transactionId=590000453769124&guid=4cc6f3c0a60035dbc1f990148a67f36e2c4d9963
+HTTP/1.1 200 Apple WebObjects
+x-apple-jingle-correlation-key: HLPYJERWOWPXWJ2RTIYYBSZNIU
+x-apple-request-uuid: 3adf8492-3675-9f7b-2751-9a3180cb2d45
+pod: 59
+x-apple-translated-wo-url: /WebObjects/MZFinance.woa/wa/inAppTransactionDone?transactionId=590000453769124&guid=4cc6f3c0a60035dbc1f990148a67f36e2c4d9963
+apple-tk: false
+edge-control: no-store
+edge-control: cache-maxage=0
+content-type: text/xml; charset=UTF-8
+x-apple-lokamai-no-cache: true
+cache-control: private
+cache-control: no-cache
+cache-control: no-store
+cache-control: no-transform
+cache-control: must-revalidate
+cache-control: max-age=0
+itspod: 59
+x-webobjects-loadaverage: 74
+apple-seq: 0
+apple-originating-system: MZFinance
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-frame-options: SAMEORIGIN
+x-apple-orig-url: https://p59-buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/inAppTransactionDone?transactionId=590000453769124&guid=4cc6f3c0a60035dbc1f990148a67f36e2c4d9963
+x-apple-application-site: ST13
+date: Tue, 03 Dec 2019 16:22:24 GMT
+set-cookie: itspod=59; version="1"; expires=Fri, 03-Jan-2020 16:22:24 GMT; path=/; domain=.apple.com
+set-cookie: mzf_in=592359; version="1"; path=/WebObjects; domain=.apple.com; secure; HttpOnly
+set-cookie: mzf_dr=0; version="1"; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/WebObjects; domain=.apple.com
+apple-timing-app: 74 ms
+expires: Tue, 03 Dec 2119 16:22:24 GMT
+x-apple-request-store-front: 143471-2,29
+x-apple-date-generated: Tue, 03 Dec 2119 16:22:24 GMT
+x-apple-application-instance: 592359
+content-length: 252
+Set-Cookie: ns-mzf-inst=183-167-443-241-12-8141-592359-59-st13; version=1; Max-Age=1800; path=/WebObjects/; domain=.apple.com; httponly
+Connection: keep-alive
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plist version="1.0">
+<dict>
+<key>pings</key>
+<array></array>
+<key>jingleDocType</key><string>inAppSuccess</string>
+<key>jingleAction</key><string>inAppTransactionDone</string>
+<key>dsid</key><string>16878494836</string>
+<key>download-queue-item-count</key><integer>0</integer>
+<key>app-list</key>
+<array>
+</array>
+<!-- dataSource: []-->
+</dict>
+</plist>
