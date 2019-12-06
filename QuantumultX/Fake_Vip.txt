@@ -221,4 +221,5 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 ^https:\/\/api-production\.endel\.io\/.*\/user$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/endel.js
 
 #Buy
-^https:\/\/p*-buy\.itunes\.apple\.com\/WebObjects\/MZFastFinance\.woa\/wa\/inAppCheckDownloadQueue$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/bitsboard.js
+^https:\/\/p*-buy\.itunes\.apple\.com\/WebObjects\/MZFastFinance.woa\/wa\/inAppCheckDownloadQueue$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/bitsboard.js
+^https:\/\/p*-buy\.itunes\.apple\.com\/WebObjects\/MZFinance.woa\/wa\/inAppPendingTransactions$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/receipt.js
