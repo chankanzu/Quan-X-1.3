@@ -1,4 +1,5 @@
-{
+var obj = JSON.parse($response.body);
+obj={
 	"account": {
 		"info": {
 			"hasError": false,
@@ -230,4 +231,6 @@
 	"hasError": false,
 	"error": null,
 	"profilingSet": null
-}
+};
+
+$done({body: JSON.stringify(obj)});
