@@ -1,10 +1,10 @@
 var obj = JSON.parse($response.body);
 
 obj= {
-	"code": 0,
+	"code": 200,
 	"data": {
 		"userId": "2fwiWLaVkvg3IxakMqhn6AH8DkA3",
-		"shortUserId": "740187",
+		"shortUserId": "951342",
 		"email": "svcntnk42a1@gmail.com",
 		"displayName": "Khánh Dư Trần",
 		"providerData": "Firebase",
