@@ -226,4 +226,4 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 
 #wolfram
 
-^https:\/\/ww\.wolframalpha\.com\/users\/me\/account* url 302 https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/Wolfram.json
+^https:\/\/www\.wolframalpha\.com\/users\/me\/account* url 302 https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/Wolfram.json
