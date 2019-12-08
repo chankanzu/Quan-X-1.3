@@ -12,5 +12,4 @@ obj={
 	"workflow": "OAUTH",
 	"scope": "ROLE_INTERNAL ROLE_USERDATA ROLE_INTROSPECT ROLE_XAUTH ROLE_USERACL"
 };
-
 $done({body: JSON.stringify(obj)});
