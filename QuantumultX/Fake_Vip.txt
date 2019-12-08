@@ -232,3 +232,4 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 
 #4english
 ^https:\/\/vocabinnews\.com\/v1\/users\/me\/info$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/4english.vip.js
+^https://vocabinnews.com/v1/users/me/functions
