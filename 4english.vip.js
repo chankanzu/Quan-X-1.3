@@ -1,7 +1,7 @@
 var obj = JSON.parse($response.body);
 
 obj= {
-	"code": 200,
+	"code": 0,
 	"data": {
 		"userId": "2fwiWLaVkvg3IxakMqhn6AH8DkA3",
 		"shortUserId": "740187",
@@ -16,5 +16,3 @@ obj= {
 $done({body: JSON.stringify(obj)});
 
 //
-
-// Descriptions
