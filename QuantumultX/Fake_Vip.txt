@@ -243,4 +243,5 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 ^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/weathelive.js
 
 #lumosity
-^https:\/\/www\.lumosity\.com\/api\/v2\/user* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/lumosity.js
+^https:\/\/www\.lumosity\.com\/api\/v2\/subscriptions* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/lumosity.js
+^https:\/\/www\.lumosity\.com\/api\/v2\/user* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/lumosity2.js
