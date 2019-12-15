@@ -192,7 +192,7 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/PhotoshopEp.js
 
 #itranslate
-^https:\/\/ssl-api\.itranslateapp\.com\/accounts\/v4\/subscriptions\/verify\/ios$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/itranslateapp.js
+^https:\/\/ssl-api\.itranslateapp\.com\/accounts\/v4\/subscriptions\/verify\/ios$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/itranslate.js
 
 #ulysses
 ^https:\/\/sk\.ulysses\.app\/api\/v1\/ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/ulysses.js
