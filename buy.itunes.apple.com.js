@@ -1,7 +1,7 @@
 var obj = JSON.parse($response.body);
 var bundle_id = obj.receipt["bundle_id"];
 //vcus
-if(bundle_id == "com.BritishCouncil.playtime")
+if(bundle_id == "com.meitu.vcus")
 {
 obj =
   {
