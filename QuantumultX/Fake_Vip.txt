@@ -62,7 +62,7 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 ^https:\/\/bmall\.camera360\.com\/api\/iap\/check-receipt$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/camera360.vip.js
 
 #zingtv
-^http:\/\/api\.tv\.zing\.vn\/.*/user* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/zingtvvipv1.js
+^https?:\/\/api\.tv\.zing\.vn\/.*/user* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/zingtvvipv1.js
 
 #calm
 ^https:\/\/api\.calm\.com\/me$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/calm.vip.js
