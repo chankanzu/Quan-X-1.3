@@ -276,3 +276,5 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 ^https:\/\/api\.medium\.com:443\/_\/ios\/config$ url 302 https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/Medium.js
 ^https:\/\/api\.medium\.com:443\/me\/settings$ url 302 https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/Medium2.js
 
+#singbot
+^ https:\/\/api\.revenuecat\.com\/v1\/subscribers* url script-response-body 
