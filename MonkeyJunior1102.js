@@ -24,7 +24,7 @@ obj= {
 			"name": "",
 			"address": "",
 			"time_updated": 1574012795,
-			"config_item": "http:\/\/www.api.monkeyuni.net\/data_app\/user_info\/json_config_item_1039489_2.zip",
+			"config_item": "https://github.com/chankanzu/Quan-X-1.3/raw/master/json_config_item_1039489_2%20(1).zip",
 			"users_id": 1039489,
 			"max_profile": 3
 		},
