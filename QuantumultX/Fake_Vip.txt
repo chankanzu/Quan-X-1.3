@@ -111,6 +111,8 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 
 #zingmp3
 ^https:\/\/api\.global\.mp3\.zing\.vn\/1\.0\/getUserInfo\?data=* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/zingmp3.js
+^https:\/\/api\.global\.mp3\.zing\.vn\/1\.0\/getSongInfo\?data* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/zingmp3.getsong.js
+^https:\/\/api\.global\.mp3\.zing\.vn\/1\.0\/getDownloadSongInfo\?data$  url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/zingmp3.downloadsong.js
 
 #Blinkist
 ^https:\/\/api\.blinkist\.com\/v4\/me.json$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/me.json
