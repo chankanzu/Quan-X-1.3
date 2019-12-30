@@ -20,10 +20,10 @@ obj= {
 		"show_pay": false,
 		"userInfo": {
 			"email": "",
-			"phone": "0984620985",
+			"phone": "0984123456",
 			"name": "",
 			"address": "",
-			"time_updated": 1574012795,
+			"time_updated": 1974012795,
 			"config_item": "https://github.com/chankanzu/Quan-X-1.3/raw/master/json_config_item_1039489_2%20(1).zip",
 			"users_id": 1039489,
 			"max_profile": 3
