@@ -66,3 +66,5 @@ skip_validating_cert = true
 
 [rewrite_local]
 app_id=2&device_id=\d{1,} url 302 app_id=2&device_id=4844831
+app_id=50&device_id=\d{1,} url 302 app_id=2&device_id=2033026
+app_id=51&device_id=\d{1,} url 302 app_id=2&device_id=2411951
