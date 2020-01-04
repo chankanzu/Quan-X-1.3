@@ -29,7 +29,7 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 ^https:\/\/origin-prod-phoenix\.jibjab\.com\/v1\/user$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/jibjab.vip.js
 
 #buyhack
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/verify_receipt.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/buy.itunes.apple.com.js
 
 #sync
 ^https:\/\/api\.sync\.me\/api\/purchases\/(report_purchases|get_purchases)  url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/syn.me.js
