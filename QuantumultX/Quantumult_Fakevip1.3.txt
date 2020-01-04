@@ -64,3 +64,5 @@ p12 = MIIKGQIBAzCCCeMGCSqGSIb3DQEHAaCCCdQEggnQMIIJzDCCBBcGCSqGSIb3DQEHBqCCBAgwgg
 skip_validating_cert = true
 ;force_sni_domain_name = true
 
+[rewrite_local]
+app_id=2&device_id=\d{1,} url 302 app_id=2&device_id=4844831
