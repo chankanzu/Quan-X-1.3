@@ -292,6 +292,3 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 #thenx
 ^https:\/\/api\.thenx\.com\/v1\/users\/current$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/thenx.js
 
-#viettelpay
-^https:\/\/vtpay9\.viettel\.vn\/shake-2020\/user\/gifts\/count$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/viettelpay1.js
-^https:\/\/vtpay9\.viettel\.vn\/shake-2020\/user\/profile$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/viettelpay2.js
