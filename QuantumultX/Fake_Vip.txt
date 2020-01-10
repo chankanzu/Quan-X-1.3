@@ -294,3 +294,4 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 
 #quizlet
 ^https:\/\/api\.quizlet\.com\/3.4\/users* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/Quizlet.js
+^https:\/\/api\.quizlet\.com\/3.4\/users\/apple-subscription\/free-trial$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/quizlet2.js
