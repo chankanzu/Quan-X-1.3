@@ -363,4 +363,4 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 ^https:\/\/api\.quizlet\.com\/3.4\/users\/apple-subscription\/free-trial$ url script-response-body chankanzu/quizlet2.js
 
 #allappsmonkey
-^https:\/\/www\.api\.monkeyuni\.net\/api\/.+\/mobile\/account\/load-update url script-response-body chankanzu/Monkeycombo.js
+^https:\/\/www\.api\.monkeyuni\.net\/api\/.+\/mobile\/account\/load-update url script-response-body chankanzu/monkey.js
