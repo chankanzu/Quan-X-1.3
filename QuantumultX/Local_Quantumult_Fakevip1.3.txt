@@ -13,7 +13,6 @@ server=1.1.1.1
 server=1.0.0.1
 
 [policy]
-[policy]
 static=Fake iAP 1, proxy, reject, direct
 
 [server_remote]
