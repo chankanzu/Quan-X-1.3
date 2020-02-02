@@ -219,9 +219,6 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body c
 #LittleFox
 ^https:\/\/apis\.littlefox\.com\/api\/v1\/auth\/* url script-response-body chankanzu/LittleFox.js
 
-#MonkeyJunior
-^https:\/\/www\.api\.monkeyuni\.net\/api\/v1\/mobile\/account\/load-update* url script-response-body chankanzu/MonkeyJunior1102.js
-
 #headspace.com
 ^https:\/\/api\.prod\.headspace\.com\/subscription\/user-subscriptions?userId=HSUSER_AQ4C06TQNY80IET3$ url script-response-body chankanzu/headspace.js
 ^https:\/\/api\.prod\.headspace\.com\/subscription\/iap\/product-infos?includeInactive=1&userId=HSUSER_AQ4C06TQNY80IET3$ url script-response-body chankanzu/headspace2.js
@@ -367,4 +364,4 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 ^https:\/\/api\.quizlet\.com\/3.4\/users\/apple-subscription\/free-trial$ url script-response-body chankanzu/quizlet2.js
 
 #all apps monkey
-^https:\/\/www\.api\.monkeyuni\.net\/api\/.+\/mobile\/account\/load-update url script-response-body langkhach/monkey.js
+^https:\/\/www\.api\.monkeyuni\.net\/api\/.+\/mobile\/account\/load-update url script-response-body chankanzu/Monkeycombo.js
