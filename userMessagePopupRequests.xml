@@ -1,0 +1,16 @@
+[
+	{
+	"popupID" : "12021",
+	"active" : "yes",
+	"message" : "Does LiquidText help you? Please tell us how,\rit will take less than 1 minute.",
+	"title" : "We Need Your Help",
+	"backgroundColor" : "#000000",
+	"requires_maxRandomNumber" : "90",
+	"requires_minRandomNumber" : "-34",
+	"required_minDaysSinceLastPopupShown" : "90",
+	"required_minRunCount" : "3",
+	"destinationURL" : "https://form.jotform.com/92187632778168?haspro=<upgradedToPro>&userid=<userID>&rand=<randomNbr>&ipadname=<iPadModelName>"
+	},
+
+]
+	
