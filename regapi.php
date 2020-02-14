@@ -1,57 +1,22 @@
-[{
-	"prodid": "OECD1YR_FR_OALECD8",
-	"type": "subs",
-	"trial_duration": "3",
-	"trial_is_months": "1",
-	"subs_duration": "12"
-}, {
-	"prodid": "OECD6MTH_FR_OALECD8",
-	"type": "subs",
-	"trial_duration": "3",
-	"trial_is_months": "1",
-	"subs_duration": "6"
-}, {
-	"prodid": "com.pleco.obedectest",
-	"type": "subs",
-	"trial_duration": "3",
-	"trial_is_months": "1",
-	"subs_duration": "6"
-}, {
-	"prodid": "hk.oup.com.obedec2",
-	"type": "subs",
-	"trial_duration": "3",
-	"trial_is_months": "1",
-	"subs_duration": "6"
-}, {
-	"prodid": "OECD_COLLOC",
-	"items": "colloc",
-	"type": "inapp"
-}, {
-	"prodid": "OECD_OAD",
-	"items": "oad,audio",
-	"type": "inapp"
-}, {
-	"prodid": "OECD_OALECD9",
-	"type": "subs",
-	"trial_duration": "3",
-	"trial_is_months": "1",
-	"subs_duration": "6"
-}, {
-	"prodid": "OECD_OBEDEC2e",
-	"items": "obedec",
-	"type": "inapp"
-}, {
-	"prodid": "OECD_OID2e",
-	"items": "oid",
-	"type": "inapp"
-}, {
-	"prodid": "OECD_OLECT",
-	"items": "olect,audio",
-	"type": "inapp"
-}, {
-	"prodid": "OECD_OPVD2e",
-	"type": "subs",
-	"trial_duration": "3",
-	"trial_is_months": "1",
-	"subs_duration": "6"
-}]
+{
+	"keydata": {
+		"date": 1581696251000,
+		"keys": {
+			"oalecd9": {
+				"expires": 0,
+				"code": "qVVHRSAKCxLin9H3a\/uVTg==",
+				"transid": "app_hk.com.oup.oalecd8_date_1563656372"
+			},
+			"audio": {
+				"expires": 0,
+				"code": "qVVHRSAKCxLin9H3a\/uVTg==",
+				"transid": "app_hk.com.oup.oalecd8_date_1563656372"
+			}
+		},
+		"regkey": "RSRNS-HSJWK-ZTWCV",
+		"deviceid": "68C2D092-B9A9-45F4-849B-F9C8E268A61A",
+		"lastupdate": "2020-02-14 16:04:11",
+		"subsexpiry": 0,
+		"subsdir": 0
+	}
+}
