@@ -1,0 +1,57 @@
+[{
+	"prodid": "OECD1YR_FR_OALECD8",
+	"type": "subs",
+	"trial_duration": "3",
+	"trial_is_months": "1",
+	"subs_duration": "12"
+}, {
+	"prodid": "OECD6MTH_FR_OALECD8",
+	"type": "subs",
+	"trial_duration": "3",
+	"trial_is_months": "1",
+	"subs_duration": "6"
+}, {
+	"prodid": "com.pleco.obedectest",
+	"type": "subs",
+	"trial_duration": "3",
+	"trial_is_months": "1",
+	"subs_duration": "6"
+}, {
+	"prodid": "hk.oup.com.obedec2",
+	"type": "subs",
+	"trial_duration": "3",
+	"trial_is_months": "1",
+	"subs_duration": "6"
+}, {
+	"prodid": "OECD_COLLOC",
+	"items": "colloc",
+	"type": "inapp"
+}, {
+	"prodid": "OECD_OAD",
+	"items": "oad,audio",
+	"type": "inapp"
+}, {
+	"prodid": "OECD_OALECD9",
+	"type": "subs",
+	"trial_duration": "3",
+	"trial_is_months": "1",
+	"subs_duration": "6"
+}, {
+	"prodid": "OECD_OBEDEC2e",
+	"items": "obedec",
+	"type": "inapp"
+}, {
+	"prodid": "OECD_OID2e",
+	"items": "oid",
+	"type": "inapp"
+}, {
+	"prodid": "OECD_OLECT",
+	"items": "olect,audio",
+	"type": "inapp"
+}, {
+	"prodid": "OECD_OPVD2e",
+	"type": "subs",
+	"trial_duration": "3",
+	"trial_is_months": "1",
+	"subs_duration": "6"
+}]
