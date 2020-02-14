@@ -376,3 +376,6 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 
 #autocad
 ^https:\/\/app\.autocad360\.com\/main\/users\/login\/v2$  url script-response-body chankanzu/autocad.js
+
+#oecd
+^https:\/\/oecd\.oupchina\.com\.hk\/regapi.php$ url script-response-body chankanzu/regapi.php
