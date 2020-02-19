@@ -82,6 +82,8 @@ hostname = avatar-nct.nixcdn.com, spclient.wg.spotify.com, oa.zalo.me, vsco.co, 
 
 [rewrite_local]
 
+(.video_id=\w{32})(.watermark=)(.*) url 302 $1
+
 #vsco
 ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ url script-response-body chankanzu/vsco.js
 
