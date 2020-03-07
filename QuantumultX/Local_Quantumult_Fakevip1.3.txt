@@ -383,4 +383,4 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 ^https:\/\/oecd\.oupchina\.com\.hk\/regapi.php$ url script-response-body chankanzu/regapi.php
 
 #xiang
-^https://qgytjlfnjfjf774fha7f.xiangxiangapps.com/vod/show* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/xiangxiangapps.js
+^https:\/\/qgytjlfnjfjf774fha7f\.xiangxiangapps\.com\/vod\/show* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/xiangxiangapps.js
