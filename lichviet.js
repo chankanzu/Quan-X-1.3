@@ -1,4 +1,6 @@
-{
+var obj = JSON.parse($response.body);
+
+obj= {
 	"status": 1,
 	"error": null,
 	"secretKey": "FyFmsBCHWHtzNplwUiki",
@@ -16,4 +18,7 @@
 		}]
 	},
 	"api_version": "1.0"
-}
+};
+
+$done({body: JSON.stringify(obj)});
+
