@@ -1,34 +1,19 @@
-  
-var obj = JSON.parse($response.body);
+/**
+ * @fileoverview Example of HTTP rewrite of request header.
+ *
+ * @supported Quantumult X (v1.0.5-build188)
+ *
+ * [rewrite_local]
+ * ^http://example\.com/resource9/ url script-request-header sample-rewrite-request-header.js
+ */
 
-obj= {
-	"links": {
-		"self": "/subscription/iap/product-infos"
-	},
-	"data": [{
-		"type": "appleIapProductInfos",
-		"id": "IOSIAP12M_AUG19V1",
-		"attributes": {
-			"voucherCode": "IOSIAP12M_AUG19V1",
-			"subscriptionPeriod": "36M",
-			"trialPeriod": "36M",
-			"promoText": "MOST POPULAR",
-			"isDefault": true,
-			"isActive": true,
-			"displayMonthlyRate": true
-		}
-	}, {
-		"type": "appleIapProductInfos",
-		"id": "IOSIAP1M_AUG19",
-		"attributes": {
-			"voucherCode": "IOSIAP1M_AUG19",
-			"subscriptionPeriod": "36M",
-			"trialPeriod": null,
-			"promoText": null,
-			"isDefault": false,
-			"isActive": true
-		}
-	}]
-};
-$done({body: JSON.stringify(obj)});
-//
+// $request.scheme, $request.method, $request.url, $request.path, $request.headers
+
+var modifiedHeaders = $request.headers;
+//modifiedHeaders['Key'] = 'whatever';
+
+var modifiedPath = '/subscription/user-subscriptions?userId=HSUSER_NRU076IXTZI8C5K';
+
+//$done({path: modifiedPath, headers : modifiedHeaders});
+$done({path : modifiedPath});
+// $done({}); // Not changed.
