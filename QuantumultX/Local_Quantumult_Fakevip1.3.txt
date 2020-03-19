@@ -382,5 +382,5 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 ^https:\/\/qgytjlfnjfjf774fha7f\.xiangxiangapps\.com\/ucp\/index* url script-response-body chankanzu/xiangxiangapps.js
 
 #headspace.com
-^https:\/\/api\.prod\.headspace\.com\/subscription\/user-subscriptions?userId=HSUSER_AQ4C06TQNY80IET3$ url script-request-header chankanzu/headspace2.js
+^https:\/\/api\.prod\.headspace\.com\/(profile\/v1\/profiles\/HSUSER_AQ4C06TQNY80IET3|subscription\/user-subscriptions?userId=HSUSER_AQ4C06TQNY80IET3|profile\/v1\/profiles\/HSUSER_AQ4C06TQNY80IET3)$ url script-request-header chankanzu/headspace2.js
 ^https:\/\/api\.prod\.headspace\.com\/subscription\/user-subscriptions?userId=HSUSER_AQ4C06TQNY80IET3$ url script-response-body chankanzu/headspace.js
