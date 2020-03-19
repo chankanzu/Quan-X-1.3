@@ -229,11 +229,6 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body c
 #LittleFox
 ^https:\/\/apis\.littlefox\.com\/api\/v1\/auth\/* url script-response-body chankanzu/LittleFox.js
 
-#headspace.com
-^https://api.prod.headspace.com/profile/v1/profiles/HSUSER_AQ4C06TQNY80IET3 url script-request-header chankanzu/headspace2.js
-^https://api.prod.headspace.com/profile/v1/profiles/HSUSER_AQ4C06TQNY80IET3 url script-response-body chankanzu/headspace.js
-
-
 #sleepcycle
 ^https:\/\/s\.sleepcycle\.com\/downloadReceipt$ url script-response-body chankanzu/sleepcycle1.js
 ^https:\/\/s\.sleepcycle\.com\/useraccountstats$ url script-response-body chankanzu/sleepcycle2.js
@@ -386,3 +381,6 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 #xiang
 ^https:\/\/qgytjlfnjfjf774fha7f\.xiangxiangapps\.com\/ucp\/index* url script-response-body chankanzu/xiangxiangapps.js
 
+#headspace.com
+^https:\/\/api\.prod\.headspace\.com\/subscription\/user-subscriptions?userId=HSUSER_AQ4C06TQNY80IET3$ url script-request-header chankanzu/headspace2.js
+^https:\/\/api\.prod\.headspace\.com\/subscription\/user-subscriptions?userId=HSUSER_AQ4C06TQNY80IET3$ url script-response-body chankanzu/headspace.js
