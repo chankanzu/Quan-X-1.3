@@ -10,10 +10,10 @@
 // $request.scheme, $request.method, $request.url, $request.path, $request.headers
 
 var modifiedHeaders = $request.headers;
-//modifiedHeaders['Key'] = 'whatever';
+modifiedHeaders['HSUSER_AQ4C06TQNY80IET3'] = 'HSUSER_NRU076IXTZI8C5KJ';
 
-var modifiedPath = '/subscription/user-subscriptions?userId=HSUSER_NRU076IXTZI8C5K';
+//var modifiedPath = '/subscription/user-subscriptions?userId=HSUSER_NRU076IXTZI8C5K';
 
-//$done({path: modifiedPath, headers : modifiedHeaders});
-$done({path : modifiedPath});
+$done({path: modifiedPath, headers : modifiedHeaders});
+//$done({path : modifiedPath});
 // $done({}); // Not changed.
