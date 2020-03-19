@@ -230,8 +230,8 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body c
 ^https:\/\/apis\.littlefox\.com\/api\/v1\/auth\/* url script-response-body chankanzu/LittleFox.js
 
 #headspace.com
-^https:\/\/api\.prod\.headspace\.com\/subscription\/user-subscriptions?userId* url script-request-header chankanzu/headspace2.js
-^https:\/\/api\.prod\.headspace\.com\/subscription\/user-subscriptions?userId* url script-response-body chankanzu/headspace.js
+^https://api.prod.headspace.com/profile/v1/profiles/HSUSER_AQ4C06TQNY80IET3 url script-request-header chankanzu/headspace2.js
+^https://api.prod.headspace.com/profile/v1/profiles/HSUSER_AQ4C06TQNY80IET3 url script-response-body chankanzu/headspace.js
 
 
 #sleepcycle
