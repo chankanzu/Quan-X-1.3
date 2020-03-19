@@ -12,13 +12,13 @@ obj= {
 			"id": "HSSUBS_B2CSUBSCRIBER",
 			"name": "2 - Subscriber",
 			"prices": [{
-				"price": 9.95,
-				"currency": "EUR",
-				"symbol": "%E2%82%AC"
-			}, {
 				"price": 12.95,
 				"currency": "USD",
 				"symbol": "%24"
+			}, {
+				"price": 9.95,
+				"currency": "EUR",
+				"symbol": "%E2%82%AC"
 			}, {
 				"price": 7.95,
 				"currency": "GBP",
@@ -28,38 +28,37 @@ obj= {
 		}
 	}, {
 		"type": "vouchers",
-		"id": "HSVCHR_A694L22PN4LCU3FJ",
+		"id": "HSVCHR_X8624A777OQO6TRW",
 		"attributes": {
-			"id": "HSVCHR_A694L22PN4LCU3FJ",
-			"name": "Annual (14 day trial)",
-			"description": "An iOS monthly subscription with a 14 day free trial",
-			"code": "IOSIAP_FT_14D_ANNUAL",
-			"numMonths": 1000,
-			"isGift": true,
-			"voucherId": "HSVCHR_A694L22PN4LCU3FJ",
+			"id": "HSVCHR_X8624A777OQO6TRW",
+			"name": "IOSIAPLIFETIME2",
+			"description": "IOSIAPLIFETIME2",
+			"code": "IOSIAPLIFETIME2",
+			"numMonths": 9999,
+			"isGift": false,
+			"voucherId": "HSVCHR_X8624A777OQO6TRW",
 			"platform": "iap"
 		}
 	}],
 	"data": {
 		"type": "userSubscriptions",
-		"id": "HSUSUB_E4WLBJPAPZI8YY81",
+		"id": "HSUSUB_WJ82HZULH5OGL6XS",
 		"attributes": {
-			"id": "HSUSUB_E4WLBJPAPZI8YY81",
-			"userSubscriptionId": "HSUSUB_E4WLBJPAPZI8YY81",
-			"startDate": "2019-11-17T15:45:32.0+0000",
-			"endDate": "2119-11-17T15:45:32.0+0000",
+			"id": "HSUSUB_WJ82HZULH5OGL6XS",
+			"userSubscriptionId": "HSUSUB_WJ82HZULH5OGL6XS",
+			"startDate": "2018-12-06T03:31:15.0+0000",
+			"endDate": "2852-03-06T03:31:15.0+0000",
 			"status": "ACTIVE",
 			"paymentSchedule": "EVERGREEN",
-			"nextRenewalDate": "2119-11-17T15:45:32.0+0000",
+			"nextRenewalDate": "2852-03-06T03:31:15.0+0000",
 			"inFinalPeriod": false,
-			"inLast30Days": true,
+			"inLast30Days": false,
 			"isLifetime": true,
 			"cancelled": false,
-			"freeTrialEndDate": "2119-12-01T15:45:32.0+0000",
-			"iapOriginalTransactionId": "590000448468341",
+			"iapOriginalTransactionId": "70000542534457",
 			"subscriptionDetails": {
 				"platform": "APPLE",
-				"term": 12,
+				"term": 9999,
 				"version": "V2",
 				"planAffiliation": null,
 				"businessModel": "B2C",
@@ -77,7 +76,7 @@ obj= {
 			"voucher": {
 				"data": {
 					"type": "vouchers",
-					"id": "HSVCHR_A694L22PN4LCU3FJ"
+					"id": "HSVCHR_X8624A777OQO6TRW"
 				}
 			}
 		}
