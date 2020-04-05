@@ -382,3 +382,6 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 
 #voizfm
 ^https:\/\/app\.voiz\.vn\/api\/v2\/query$  url script-response-body chankanzu/voizfm.js
+
+#photomath
+^https:\/\/lapi\.photomath\.net\/v3\/me$ url 302 chankanzu/photomath.js
