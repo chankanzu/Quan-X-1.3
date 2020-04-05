@@ -14,20 +14,15 @@ server=8.8.4.4
 
 
 [policy]
-available=Fake iAP Policy, Fake iAP Server 01, Fake iAP Server 02, Fake iAP Server 03, img-url=https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/pill_1f48a.png
-static=Fake PXX Policy, direct, Fake iAP Policy, img-url=https://raw.githubusercontent.com/crossutility/Quantumult-X/master/icon-samples/apple.PNG
-
 #
 # Params "tag" and "enabled" are optional.
 # The default sync interval for all kinds of remote resources is 24*60*60 seconds.
 #
 
 [server_remote]
-https://github.com/tinycarrot/tinycarrot/raw/master/quantumutlx/remote/fakeiap_server.txt, tag=Fake iAP Server, enabled=true
+
 
 [filter_remote]
-https://raw.githubusercontent.com/tinycarrot/tinycarrot/master/Profile/quantumult/fakePXX-itunes.txt, tag=Fake PXX Filter, force-policy=Fake PXX Policy, enabled=true
-https://raw.githubusercontent.com/tinycarrot/tinycarrot/master/Profile/quantumult/fakeiap-filter.txt, tag=Fake iAP Filter, force-policy=Fake iAP Policy, enabled=true
 https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hostsVN-quantumult-exceptions-rule.conf, tag=🇻🇳hostsVN, force-policy=direct, enabled=true
 https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hostsVN-quantumult-rule.conf, tag=🇻🇳hostsVN, force-policy=reject, enabled=true
 
@@ -384,3 +379,6 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 #headspace.com
 ^https:\/\/api\.prod\.headspace\.com\/(profile\/v1\/profiles\/HSUSER_AQ4C06TQNY80IET3|subscription\/user-subscriptions?userId=HSUSER_AQ4C06TQNY80IET3|profile\/v1\/profiles\/HSUSER_AQ4C06TQNY80IET3)$ url script-request-header chankanzu/headspace2.js
 ^https:\/\/api\.prod\.headspace\.com\/subscription\/user-subscriptions?userId=HSUSER_AQ4C06TQNY80IET3$ url script-response-body chankanzu/headspace.js
+
+#voizfm
+^https:\/\/app\.voiz\.vn\/api\/v2\/query$  url script-response-body chankanzu/autocad.js
