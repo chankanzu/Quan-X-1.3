@@ -285,8 +285,8 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 ^https:\/\/static\.moneylover\.me\/data\/subscription_product.json$ url 302 chankanzu/Trial.Moneylover.js
 
 #Fafaria
-^https:\/\/api\.farfaria\.com\/users\/sign_in.json* url script-request-header chankanzu/farfariaheader.js
-^https:\/\/api\.farfaria\.com\/users\/sign_in.json*  url 302 chankanzu/Fafaria.json
+^https:\/\/api\.farfaria\.com\/users\/sign_in.json* url script-response-body chankanzu/Fafaria.js
+^https:\/\/api\.farfaria\.com\/users\/update_pn_device_token.json* url script-response-body chankanzu/farfariaupdate.js
 
 #Kidsup
 ^https:\/\/api\.kidsup\.net\/verify$ url script-response-body chankanzu/Kidsup.js
