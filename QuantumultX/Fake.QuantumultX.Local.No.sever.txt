@@ -381,4 +381,4 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 ^https:\/\/api\.prod\.headspace\.com\/subscription\/user-subscriptions?userId=HSUSER_AQ4C06TQNY80IET3$ url script-response-body chankanzu/headspace.js
 
 #voizfm
-^https:\/\/app\.voiz\.vn\/api\/v2\/query$  url script-response-body chankanzu/autocad.js
+^https:\/\/app\.voiz\.vn\/api\/v2\/query$  url script-response-body chankanzu/voizfm.js
