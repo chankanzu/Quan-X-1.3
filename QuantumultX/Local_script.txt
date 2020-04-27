@@ -1,0 +1,329 @@
+hostname = avatar-nct.nixcdn.com, spclient.wg.spotify.com, oa.zalo.me, vsco.co, api.gyrosco.pe, origin-prod-phoenix.jibjab.com, api.termius.com, api.picsart.com, api.unfold.app, viva-asia1.vvbrd.com, graph.nhaccuatui.com, api.memrise.com , buy.itunes.apple.com, api.sync.me, pool.elsanow.io, lambda.us-east-1.amazonaws.com, api.mondlylanguages.com, api.busuu.com, owa.videoshowiosglobalserver.com:8095, accounts.elevateapp.net, purchases.ws.pho.to, api-intl.mr.meitu.com, bmall.camera360.com, api.tv.zing.vn, api.calm.com, www.calm.com, api.global.mp3.zing.vn, apimboom2.globaldelight.net, photos.adobe.io, license.pdfexpert.com, subs.platforms.team, apic.musixmatch.com, api.getmimo.com, api.revenuecat.com, engbright.com, api.lingokids.com, www.peacefulsoundsapp.com, duolingo-leaderboards-prod.duolingo.com,  commerce-i18n-api.faceu.mobi, mobile-api.adguard.com, api.blinkist.com, api.sololearn.com, api-kinemaster-assetstore.nexstreaming.com, subs.studycat.net, production.platform.originatorkids.com, pibo.jp, revoapi.moneylover.me, apis.littlefox.com,api.monkeyuni.net, api.prod.headspace.com, *.sleepcycle.com, api.ejoy.io, api.pushover.net, api.intsig.net, api.overhq.com, receipt-validator.herewetest.com, payments-p.yoursmartkid.com, education.github.com, backend.getdrafts.com, api.deezer.com, ssl-api.itranslateapp.com, sk.ulysses.app, dayone.me, api.leanplum.com, static.moneylover.me, api.farfaria.com, api.kidsup.net, api-production.endel.io,lcs-mobile-cops.adobe.io,p*-buy.itunes.apple.com, wolframalpha.com, *.wolfram.com,   api.shred.app, vocabinnews.com, *.deluxeweather.com, *.platforms.team, lumosity.com, *.crashlytics.com, license.enpass.io, mp.bybutter.com, *.grammarly.com, splice.oracle.*.com, api.keepkeep.com, planner5d.com, secure.istreamer.com, api.mazii.net, api.medium.com, api.revenuecat.com, api.thenx.com, vtpay9.viettel.vn, api.quizlet.com, api.spendee.com, ads.penreader.com, device-provisioning.googleapis.com, app.autocad360.com, oecd.oupchina.com.hk, qgytjlfnjfjf774fha7f.xiangxiangapps.com, api.lichviet.org, , account.wps.com,
+
+#vsco
+^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ url script-response-body chankanzu/Quan-X-1.3/master/vsco.js
+
+#gyroscope
+^https:\/\/api\.gyrosco\.pe\/v1\/account\/$ url script-response-body chankanzu/Quan-X-1.3/master/Gyroscope.vip.js
+
+#Termius 
+https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body chankanzu/Quan-X-1.3/master/Terminus.js
+
+#PicsArt
+^https:\/\/api\.picsart\.com\/users\/show\/me\.json$ url script-response-body chankanzu/Quan-X-1.3/master/picsArt.vip.js
+
+#Vivavideo
+^https:\/\/viva-asia1\.vvbrd\.com\/api\/rest\/u\/vip* url script-response-body chankanzu/Quan-X-1.3/master/vivavideo.vip.js
+
+#Undfold
+^https:\/\/api\.unfold\.app\/v1\/ios\/receipts$ url script-response-body chankanzu/Quan-X-1.3/master/Unfold.vip.js
+
+#Nhaccuatui
+^https:\/\/graph\.nhaccuatui\.com\/.*\/users\/info* url script-response-body chankanzu/Quan-X-1.3/master/nhaccuatui.js
+
+#Memrise
+^https:\/\/api\.memrise\.com\/v1\.16\/me\/$ url response-body "is_pro":false response-body "is_pro":true
+
+^https:\/\/api\.memrise\.com\/v1\.16\/(dashboard\/$|leaderboards\/following\/) url script-response-body chankanzu/Quan-X-1.3/master/memrise.vip.js
+
+# Jibjab
+^https:\/\/origin-prod-phoenix\.jibjab\.com\/v1\/user$ url script-response-body chankanzu/Quan-X-1.3/master/jibjab.vip.js
+
+#buyhack
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body chankanzu/Quan-X-1.3/master/buy.itunes.apple.com.js
+
+#sync
+^https:\/\/api\.sync\.me\/api\/purchases\/(report_purchases|get_purchases)  url script-response-body chankanzu/Quan-X-1.3/master/syn.me.js
+
+#elsaresponse
+^https:\/\/pool\.elsanow\.io\/user\/api\/v1\/purchase$ url script-response-body chankanzu/Quan-X-1.3/master/elsa-response.js
+
+#elsarewrite
+^https:\/\/pool\.elsanow\.io\/content\/api\/v1\/modules\/download$  url request-header (\r\n)x-session-token:.+(\r\n) request-header $1x-session-token: F3S0w0bysBQFdbjtxpFurrFv2ItBBcBkVQxUddQW+9vjt2JXM751ksqq5GAWpkl+kk9nhig9BGh9JhYHQaokmendY6zLZDscHiRkZD2HrdJclKVCLordAARJhYIrf5C+5OSK6ax2TA45CKi8S09FEtYXN4noXO7gt42NT6WPIv6DKhdIwVxQuIAMLU5abmpMTDlyWeI4ulBWcOQbuZWWZg==
+
+#drops
+^https:\/\/lambda\.us-east-1\.amazonaws\.com/.*/functions\/prod-4-syncPurchases\/invocations$ url script-response-body chankanzu/Quan-X-1.3/master/drops.js
+
+#mondly
+^https:\/\/api\.mondlylanguages\.com\/v1\/ios\/user\/sync$ url script-response-body chankanzu/Quan-X-1.3/master/mondly.vip.js
+
+#busuu
+^https:\/\/api\.busuu\.com\/users\/me* url script-response-body chankanzu/Quan-X-1.3/master/busuu.vip.js
+
+#Videoshow
+^https:\/\/owa\.videoshowiosglobalserver\.com* url script-response-body chankanzu/Quan-X-1.3/master/videoshow.vip.js
+
+#elevate
+^https:\/\/accounts\.elevateapp\.net\/api\/users\?user%5Bauthentication_token* url script-response-body chankanzu/Quan-X-1.3/master/elevate.vip.js
+
+#beautyplus
+^https:\/\/api-intl\.mr\.meitu\.com/.*/subs_offer_elg$ url script-response-body chankanzu/Quan-X-1.3/master/beautyplusvip.js
+
+#camera360
+^https:\/\/bmall\.camera360\.com\/api\/(iap\/check-receipt$|mix\/getinfo$) url script-response-body chankanzu/Quan-X-1.3/master/camera360.vip.js
+
+#zingtv
+^https?:\/\/api\.tv\.zing\.vn\/.*/user* url script-response-body chankanzu/Quan-X-1.3/master/zingtvvipv1.js
+
+#calm
+^https:\/\/api\.calm\.com\/me$ url script-response-body chankanzu/Quan-X-1.3/master/calm.vip.js
+
+#remove_manage
+^https:\/\/www\.calm\.com\/mobile\/manage-subscription\?token=*  url reject-img
+
+#lightroom
+^https:\/\/photos\.adobe\.io\/v2\/accounts* url response-body "status":.* response-body "status":"subscriber","current_subs":{"product_id":"lightroom","store":"adobe","purchase_date":"2019-10-10T16:32:10.254954Z","sao":{"inpkg_CCES":"0","inpkg_CCLE":"1","inpkg_CCSN":"0","inpkg_CCSV":"0","inpkg_LCCC":"0","inpkg_LPES":"0","inpkg_LRBRL":"0","inpkg_LRMAC":"0","inpkg_LRMC":"0","inpkg_LRMP":"0","inpkg_LRTB":"0","inpkg_PHLT":"0","inpkg_PHLT2":"0","inpkg_PLES":"0","storage_quota":"100"}},"storage":{"used":0,"limit":1154487209165,"display_limit":1099511627776,"warn":992137445376}},"avatar":{"placeholder":true}}
+
+#Pdfexpert
+^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/refresh$ url script-response-body chankanzu/Quan-X-1.3/master/Pdfexpert.vip.js
+
+#productive
+^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$ url script-response-body chankanzu/Quan-X-1.3/master/productive.js
+
+#Musixmatch
+^https:\/\/apic\.musixmatch\.com\/ws\/.*\/(user|config)\.get url script-response-body chankanzu/Quan-X-1.3/master/musixmatch.miao.js
+
+#boom
+^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url 302 chankanzu/Quan-X-1.3/master/boom.vip.rsp
+
+#mimo
+^https:\/\/api\.getmimo\.com\/v1\/subscriptions$ url script-response-body chankanzu/Quan-X-1.3/master/mimo.vip.js
+
+#mojo
+^https:\/\/api\.revenuecat\.com\/v1\/receipts$ url script-response-body chankanzu/Quan-X-1.3/master/mojo.vip.js
+
+#Bright
+^https:\/\/engbright\.com\/app-portal\/apple\/receipt$ url 302 chankanzu/Quan-X-1.3/master/Bright.rsp
+
+#lingokids
+^https:\/\/api\.lingokids\.com\/v1\/renovate_session$ url script-response-body chankanzu/Quan-X-1.3/master/lingokids.vip.js
+
+#musicalm
+^https:\/\/www\.peacefulsoundsapp\.com\/api\/v1\/init$ url script-response-body chankanzu/Quan-X-1.3/master/musicalm.js
+
+#duolingo
+^https:\/\/duolingo-leaderboards-prod\.duolingo\.com\/leaderboards* url script-response-body chankanzu/Quan-X-1.3/master/duolingo.js
+
+#ulike
+^https:\/\/commerce-i18n-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info$ url script-response-body chankanzu/Quan-X-1.3/master/ulike.js
+
+#adguardpremium
+^https:\/\/mobile-api\.adguard\.com\/api\/1\.0\/ios_validate_receipt$ url 302 chankanzu/Quan-X-1.3/master/Adguard.rsp
+
+#zingmp3
+^https:\/\/api\.global\.mp3\.zing\.vn\/1\.0\/getUserInfo\?data=* url script-response-body chankanzu/Quan-X-1.3/master/zingmp3.js
+^https:\/\/api\.global\.mp3\.zing\.vn\/1\.0\/getSongInfo\?data* url script-response-body chankanzu/Quan-X-1.3/master/zingmp3.getsong.js
+^https:\/\/api\.global\.mp3\.zing\.vn\/1\.0\/getDownloadSongInfo\?data$  url script-response-body chankanzu/Quan-X-1.3/master/zingmp3.downloadsong.js
+
+#Blinkist
+^https:\/\/api\.blinkist\.com\/v4\/me.json$ url script-response-body chankanzu/Quan-X-1.3/master/me.json
+^https:\/\/api\.blinkist\.com\/v4\/me$ url script-response-body chankanzu/Quan-X-1.3/master/me.json
+^https:\/\/api\.blinkist\.com\/v4\/me\/access$ url script-response-body chankanzu/Quan-X-1.3/master/blinkist1.js
+
+#sololearn 
+^https:\/\/api\.sololearn\.com\/Profile\/GetProfile$ url script-response-body chankanzu/Quan-X-1.3/master/sololearn2.js
+^https:\/\/api\.sololearn\.com\/authenticateDevice$ url script-response-body chankanzu/Quan-X-1.3/master/sololearn1.js
+
+#kinemaster
+^https:\/\/api-kinemaster-assetstore\.nexstreaming\.com\/.*\/product\/verifyReceipt$ url script-response-body chankanzu/Quan-X-1.3/master/kinemaster.js
+
+
+#Funenglish
+^https:\/\/subs\.studycat\.net\/1\/validatepurchase$ url script-response-body chankanzu/Quan-X-1.3/master/00FunEng1.1.1.js
+
+#Enless
+#http:\/\/production\.platform\.originatorkids\.com\/rest\/catalog\/update$ url script-response-body chankanzu/Quan-X-1.3/master/004_Req_endless_learning_school.js
+
+#http:\/\/production\.platform\.originatorkids\.com\/rest\/init 
+
+#Pipo
+^https:\/\/pibo\.jp\/api\/4\/user\/login$ url script-response-body chankanzu/Quan-X-1.3/master/006pibo.js
+
+#MoneyLover
+^https:\/\/revoapi\.moneylover\.me\/api\/status$ url script-response-body chankanzu/Quan-X-1.3/master/007MoneyLover.js
+
+#LittleFox
+^https:\/\/apis\.littlefox\.com\/api\/v1\/auth\/* url script-response-body chankanzu/Quan-X-1.3/master/LittleFox.js
+
+#MonkeyJunior
+^https:\/\/www\.api\.monkeyuni\.net\/api\/v1\/mobile\/account\/load-update* url script-response-body chankanzu/Quan-X-1.3/master/MonkeyJunior1102.js
+
+#headspace.com
+^https:\/\/api\.prod\.headspace\.com\/subscription\/user-subscriptions?userId* url script-response-body chankanzu/Quan-X-1.3/master/headspace.js
+
+#sleepcycle
+^https:\/\/s\.sleepcycle\.com\/downloadReceipt$ url script-response-body chankanzu/Quan-X-1.3/master/sleepcycle1.js
+^https:\/\/s\.sleepcycle\.com\/useraccountstats$ url script-response-body chankanzu/Quan-X-1.3/master/sleepcycle2.js
+
+#ejoy
+^https:\/\/api\.ejoy\.io\/graph$ url script-response-body chankanzu/Quan-X-1.3/master/ejoy.js
+
+
+#pushover
+^https:\/\/api\.pushover\.net\/1\/messages\.json* url script-response-body chankanzu/Quan-X-1.3/master/pushover.js
+
+#CamScanner
+^https:\/\/api\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body chankanzu/Quan-X-1.3/master/CamScaner.js
+
+#over
+^https:\/\/api\.overhq\.com\/(user\/token\/refresh$|subscription\/verifyReceipt$) url script-response-body chankanzu/Quan-X-1.3/master/over.vip.js
+
+#1blocker
+^https:\/\/api\.revenuecat\.com\/.*\/subscribers\/[0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12}$ url script-response-body chankanzu/Quan-X-1.3/master/1blocker.js
+
+#speak&translate
+^https:\/\/receipt-validator\.herewetest\.com\/apple\/verifyTransaction$ url script-response-body chankanzu/Quan-X-1.3/master/speak%26translate.js
+
+#Keiki
+https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-response-body chankanzu/Quan-X-1.3/master/Keiki.vip.js
+
+
+#document
+^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$) url script-response-body chankanzu/Quan-X-1.3/master/documents.js
+
+#workingcopy
+^https:\/\/education\.github\.com\/api\/user$ url script-response-body chankanzu/Quan-X-1.3/master/workingcopy.js
+
+#draft
+^https:\/\/backend\.getdrafts\.com\/api\/.*\/verification* url script-response-body chankanzu/Quan-X-1.3/master/draft.js
+
+#deezer
+^https:\/\/api\.deezer\.com\/1.0\/gateway.php?input=3&method=mobile_userAutolog&api_key* url script-response-body chankanzu/Quan-X-1.3/master/deezer.js
+
+#phothop&PSexpress
+^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body chankanzu/Quan-X-1.3/master/PhotoshopEp.js
+
+#itranslate
+^https:\/\/ssl-api\.itranslateapp\.com\/accounts\/v4\/subscriptions\/verify\/ios$ url script-response-body chankanzu/Quan-X-1.3/master/itranslate.js
+
+#ulysses
+^https:\/\/sk\.ulysses\.app\/api\/v1\/ url script-response-body chankanzu/Quan-X-1.3/master/ulysses.js
+
+#pre_dayone
+;^https:\/\/dayone\.me\/api\/users$ url request-header (\r\n)If-None-Match:.+(\r\n) request-header $1 
+
+#dayone
+^https:\/\/dayone\.me\/api\/(users|v2\/users\/account-status)$ url script-response-body chankanzu/Quan-X-1.3/master/dayone.js
+#yousican
+^https:\/\/api\.leanplum\.com\/api$ url script-response-body chankanzu/Quan-X-1.3/master/yousician.js
+
+#MoneyLover
+^https:\/\/static\.moneylover\.me\/icon_pack\/icon_pack.json$ url 302 chankanzu/Quan-X-1.3/master/icon.moneylover.js
+^https:\/\/static\.moneylover\.me\/data\/subscription_product.json$ url 302 chankanzu/Quan-X-1.3/master/Trial.Moneylover.js
+
+#Fafaria
+^https:\/\/api\.farfaria\.com\/users\/sign_in.json*  url 302 chankanzu/Quan-X-1.3/master/Fafaria.json
+
+#Kidsup
+^https:\/\/api\.kidsup\.net\/verify$ url script-response-body chankanzu/Quan-X-1.3/master/Kidsup.js
+^https:\/\/api\.kidsup\.net\/unlock$ url script-response-body chankanzu/Quan-X-1.3/master/kidsup2.js
+
+#endel
+^https:\/\/api-production\.endel\.io\/.*\/user$ url script-response-body chankanzu/Quan-X-1.3/master/endel.js
+
+#Buy
+;^https:\/\/p*-buy\.itunes\.apple\.com\/WebObjects\/MZFastFinance.woa\/wa\/inAppCheckDownloadQueue$ url script-response-body chankanzu/Quan-X-1.3/master/bitsboard.js
+;^https:\/\/p*-buy\.itunes\.apple\.com\/WebObjects\/MZFinance.woa\/wa\/inAppPendingTransactions$ url script-response-body chankanzu/Quan-X-1.3/master/receipt.js
+
+#wolfram
+
+^https:\/\/www\.wolframalpha\.com\/users\/me\/account* url script-response-body chankanzu/Quan-X-1.3/master/Wolfram1.js
+^https:\/\/account\.wolfram\.com\/auth\/introspect$ url script-response-body chankanzu/Quan-X-1.3/master/Wolfram.js
+
+#shred
+^https:\/\/api\.shred\.app\/verifyReceipt$ url script-response-body chankanzu/Quan-X-1.3/master/shred.js
+
+#4english
+^https:\/\/vocabinnews\.com\/v1\/users\/me\/info$ url script-response-body chankanzu/Quan-X-1.3/master/4english.vip.js
+^https:\/\/vocabinnews\.com\/v1\/users\/me\/functions$ url script-response-body chankanzu/Quan-X-1.3/master/4English2.js
+^https:\/\/onesignal\.com\/api\/v1\/apps\/b060ca09-cf25-42b8-85a1-d2d7021a351f\/ios_params.js* url 302 chankanzu/Quan-X-1.3/master/4english3.js
+^https:\/\/vocabinnews\.com\/v2\/books* url script-response-body chankanzu/Quan-X-1.3/master/4englishbook.js
+
+#weathernow
+^http:\/\/subscription\.deluxeweather\.com\/check_receipt.php$ url 302 chankanzu/Quan-X-1.3/master/Weathernow.php
+
+#weatherlive
+^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$ url script-response-body chankanzu/Quan-X-1.3/master/weathelive.js
+
+#lumosity
+^https:\/\/www\.lumosity\.com\/api\/v2\/subscriptions* url script-response-body chankanzu/Quan-X-1.3/master/lumosity.js
+^https:\/\/www\.lumosity\.com\/api\/v2\/user* url script-response-body chankanzu/Quan-X-1.3/master/lumosity2.js
+^https:\/\/www\.lumosity\.com\/api\/v2\/insights\/game_result_stats* url script-response-body chankanzu/Quan-X-1.3/master/lumosity3.js
+^https:\/\/www\.lumosity\.com\/api\/oauth\/token$ url script-response-body chankanzu/Quan-X-1.3/master/lumosity4.js
+
+#atlasenglish
+^https:\/\/settings\.crashlytics\.com\/spi\/v2\/platforms\/ios\/apps\/com.gocas.byroon\/settings* url script-response-body chankanzu/Quan-X-1.3/master/atlasenglish.js
+
+#nichi
+^https?:\/\/mp\.bybutter\.com\/mood\/(official-templates|privileges) url script-response-body chankanzu/Quan-X-1.3/master/nichi.js
+
+#grammarly
+^https:\/\/subscription\.grammarly\.com\/api\/v1$ url script-response-body chankanzu/Quan-X-1.3/master/grammarly.js
+
+#splice
+^https:\/\/splice\.oracle\.\w+\.com\/devices\/me url script-response-body chankanzu/Quan-X-1.3/master/splice.js
+
+#planner5d
+^https:\/\/planner5d\.com\/api\/sets url script-response-body chankanzu/Quan-X-1.3/master/planner5d.js
+
+#playerxtreme
+;^https:\/\/secure\.istreamer\.com\/backend$ url request-header (\r\n)If-None-Match:.+(\r\n) request-header $1 
+
+^https:\/\/secure\.istreamer\.com\/backend$ url script-response-body chankanzu/Quan-X-1.3/master/playerxtreme.js
+
+#Mazzidict
+^https:\/\/api\.mazii\.net\/api\/init-login$ url script-response-body chankanzu/Quan-X-1.3/master/mazzidict.js
+
+#medium
+^https:\/\/api\.medium\.com:443\/_\/ios\/config$ url 302 chankanzu/Quan-X-1.3/master/Medium.js
+^https:\/\/api\.medium\.com:443\/me\/settings$ url 302 chankanzu/Quan-X-1.3/master/Medium2.js
+
+#singbot
+^https:\/\/api\.revenuecat\.com\/v1\/subscribers* url script-response-body chankanzu/Quan-X-1.3/master/Singbot.js
+
+#vmonkey
+;^https:\/\/www\.api\.monkeyuni\.net\/api\/v1\/mobile\/account\/load-update?app_id=51* url 302 https://www.api.monkeyuni.net/api/v1/mobile/account/load-update?app_id=51&device_id=5185980&os=ios&info=App%20Version%3A%201.2.2%0AOS%3A%20iOS%0AModel%3A%20iPhone%20X%0ASystem%20Version%3A%2013.2.2%0ADevice%20Identifier%3A%205185980&subversion=1.2.2&device_type=4&lang=vi-VN&is_test=0
+
+^https:\/\/www\.api\.monkeyuni\.net\/api\/v1\/mobile\/account\/load-update?app_id=51* url script-response-body chankanzu/Quan-X-1.3/master/vMonkey.js
+
+#abaenglish
+^hhttps:\/\/api\.revenuecat\.com\/v1\/(receipts|\d{1,})$ url script-response-body chankanzu/Quan-X-1.3/master/abaenglish.vip.js
+
+#thenx
+^https:\/\/api\.thenx\.com\/v1\/users\/current$ url script-response-body chankanzu/Quan-X-1.3/master/thenx.js
+
+#quizlet
+^https:\/\/api\.quizlet\.com\/3.4\/users* url script-response-body chankanzu/Quan-X-1.3/master/Quizlet.js
+^https:\/\/api\.quizlet\.com\/3.4\/users\/apple-subscription\/free-trial$ url script-response-body chankanzu/Quan-X-1.3/master/quizlet2.js
+
+#monkey
+^https:\/\/www\.api\.monkeyuni\.net\/api\/v1\/mobile\/account\/load-update* url script-response-body chankanzu/Quan-X-1.3/master/Monkeycombo.js
+
+#speedee
+^https:\/\/api\.spendee\.com\/v1.5\/(user-get-profile$|user-set-subscription$|v3\/auth\/login$) url script-response-body chankanzu/Quan-X-1.3/master/speendee1.js
+
+
+^https://p.+-buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/inAppRegrantPurchaseHistory url script-response-body chankanzu/Quan-X-1.3/master/cupdasher.js
+
+
+^https:\/\/ads\.penreader\.com\/?protocol=2&catalog_id=1214&from=1970-01-01&imei* url 302 chankanzu/Quan-X-1.3/master/Oxford10.xml
+^https:\/\/device-provisioning\.googleapis\.com\/checkin$ url script-response-body chankanzu/Quan-X-1.3/master/Oxford.js
+
+#autocad
+^https:\/\/app\.autocad360\.com\/main\/users\/login\/v2$  url script-response-body chankanzu/Quan-X-1.3/master/autocad.js
+
+#xiang
+^https:\/\/qgytjlfnjfjf774fha7f\.xiangxiangapps\.com\/ucp\/index* url script-response-body chankanzu/Quan-X-1.3/master/xiangxiangapps.js
+
+#lichviet
+^https:\/\/api\.lichviet\.org\/user\/premiumstatus$ url script-response-body chankanzu/Quan-X-1.3/master/lichviet.js
+^https:\/\/api\.lichviet\.org\/user\/linkdetail$ url script-response-body chankanzu/Quan-X-1.3/master/lichviet2.js
+
+##wps makexp
+^https:\/\/account\.wps\.com/\api\/users\/.+ url script-response-body chankanzu/Scripting/master/wps.js
+
+#VideoStar
+^https?:\/\/.*\.videostarapp\.com\/scripts\/subsNew\.php url script-response-body chankanzu/Scripting/master/VideoStar.js
+
+#Textnow
+^https:\/\/api\.textnow\.me\/api2.0\/users\/.* url script-response-body chankanzu/Scripting/master/Textnow.js
