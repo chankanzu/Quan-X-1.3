@@ -84,7 +84,7 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 ^https:\/\/apic\.musixmatch\.com\/ws\/.*\/(user|config)\.get url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/musixmatch.miao.js
 
 #boom
-^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url 302 https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/boom.vip.js
+^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/boom.vip.js
 
 #mimo
 ^https:\/\/api\.getmimo\.com\/v1\/subscriptions$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/mimo.vip.js
