@@ -29,7 +29,7 @@ https://raw.githubusercontent.com/quanganhbn/Quantum-X/master/hostsVN-quantumult
 https://raw.githubusercontent.com/quanganhbn/Quantum-X/master/hostsVN-quantumult-FB.conf, tag=🇻🇳hostsVN-FB, force-policy=Chặn FB, enabled=true
 
 [rewrite_remote]
-https://raw.githubusercontent.com/langkhach270389/Scripting/master/QuantumultX/Fake_Local-workingcopy.txt, tag=Fake iAP Local Lãng Khách, enabled=true
+https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/QuantumultX/Local_script.txt, tag=Fake iAP Local, enabled=true
 https://raw.githubusercontent.com/quanganhbn/Quantum-X/master/hostsVN-quantumultX-rewrite.conf, tag=🇻🇳hostsVN, enabled=true
 
 [server_local]
