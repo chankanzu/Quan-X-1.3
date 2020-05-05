@@ -24,7 +24,7 @@ obj= {
 		"version_external_identifier": "835320301",
 		"purchase_date": "2020-05-05 13:15:31 Etc/GMT",
 		"product_id": "net.studycat.fungerman.SUBSCRIPTION_ONE_MONTH",
-		"expires_date": "1591362931931",
+		"expires_date": "1991362931931",
 		"original_purchase_date": "2020-05-05 13:15:32 Etc/GMT",
 		"purchase_date_pst": "2020-05-05 06:15:31 America/Los_Angeles",
 		"bid": "net.studycat.fungerman",
@@ -70,4 +70,4 @@ obj= {
   $done({body: JSON.stringify(obj)});
 
   // Descriptions
-  //https://subs.studycat.net/1/getpurchasedata/590000502411615?app_version=21.2.0
+  //https://subs.studycat.net/1/validatepurchase
