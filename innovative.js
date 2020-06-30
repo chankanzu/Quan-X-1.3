@@ -1,6 +1,7 @@
-//
-//
-//
+//https://www.frenchpod101.com/learningcenter/json/newest2
+//https://www.frenchpod101.com/learningcenter/json/login
+//https://www.frenchpod101.com/learningcenter/json/categories
+//https://www.frenchpod101.com/learningcenter/json/mycompleted2
 let obj = JSON.parse($response.body);
   obj["data"]["Subscription"]["subscription"]= "free";
   obj["data"]["Subscription"]["status"]= "active";
