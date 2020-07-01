@@ -1,5 +1,36 @@
 var obj = JSON.parse($response.body);
 var bundle_id = obj.receipt["bundle_id"];
+//cshapr3d
+if(bundle_id == "com.shapr3d.shapr")
+{
+obj =
+{
+	"receipt": {
+		"receipt_type": "Production",
+		"adam_id": 1091675654,
+		"app_item_id": 1091675654,
+		"bundle_id": "com.shapr3d.shapr",
+		"application_version": "21667",
+		"download_id": 99054330748363,
+		"version_external_identifier": 836422084,
+		"receipt_creation_date": "2020-06-30 10:41:51 Etc/GMT",
+		"receipt_creation_date_ms": "1593513711000",
+		"receipt_creation_date_pst": "2020-06-30 03:41:51 America/Los_Angeles",
+		"request_date": "2020-07-01 12:56:49 Etc/GMT",
+		"request_date_ms": "1593608209883",
+		"request_date_pst": "2020-07-01 05:56:49 America/Los_Angeles",
+		"original_purchase_date": "2020-06-30 10:41:51 Etc/GMT",
+		"original_purchase_date_ms": "1593513711000",
+		"original_purchase_date_pst": "2020-06-30 03:41:51 America/Los_Angeles",
+		"original_application_version": "21667",
+		"in_app": []
+	},
+	"status": 0,
+	"environment": "Production"
+};
+}
+
+
 //calibreCompanion
 if(bundle_id == "co.uk.multipie.calibreCompanion")
 {
