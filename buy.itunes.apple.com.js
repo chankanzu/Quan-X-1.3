@@ -1,7 +1,7 @@
 var obj = JSON.parse($response.body);
 var bundle_id = obj.receipt["bundle_id"];
 
-//calibreCompanion
+//pigment
 if(bundle_id == "com.pixite.pigment")
 {
 obj =
@@ -37,9 +37,9 @@ obj =
 			"original_purchase_date": "2020-07-02 13:05:01 Etc/GMT",
 			"original_purchase_date_ms": "1593695101000",
 			"original_purchase_date_pst": "2020-07-02 06:05:01 America/Los_Angeles",
-			"expires_date": "2020-07-09 13:05:01 Etc/GMT",
-			"expires_date_ms": "1594299901000",
-			"expires_date_pst": "2020-07-09 06:05:01 America/Los_Angeles",
+			"expires_date": "2999-07-09 13:05:01 Etc/GMT",
+			"expires_date_ms": "4087010263000",
+			"expires_date_pst": "2999-07-09 06:05:01 America/Los_Angeles",
 			"web_order_line_item_id": "590000198565995",
 			"is_trial_period": "true",
 			"is_in_intro_offer_period": "false"
@@ -56,9 +56,9 @@ obj =
 		"original_purchase_date": "2020-07-02 13:05:01 Etc/GMT",
 		"original_purchase_date_ms": "1593695101000",
 		"original_purchase_date_pst": "2020-07-02 06:05:01 America/Los_Angeles",
-		"expires_date": "2020-07-09 13:05:01 Etc/GMT",
-		"expires_date_ms": "1594299901000",
-		"expires_date_pst": "2020-07-09 06:05:01 America/Los_Angeles",
+		"expires_date": "2999-07-09 13:05:01 Etc/GMT",
+		"expires_date_ms": "4087010263000",
+		"expires_date_pst": "2999-07-09 06:05:01 America/Los_Angeles",
 		"web_order_line_item_id": "590000198565995",
 		"is_trial_period": "true",
 		"is_in_intro_offer_period": "false",
