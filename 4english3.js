@@ -1,19 +1,5 @@
-{
-	"uses_provisional_auth": true,
-	"outcomes": {
-		"direct": {
-			"enabled": true
-		},
-		"indirect": {
-			"notification_attribution": {
-				"minutes_since_displayed": 600000,
-				"limit": 10000
-			},
-			"enabled": true
-		},
-		"unattributed": {
-			"enabled": true
-		}
-	},
-	"receive_receipts_enable": true
-}
+let obj = JSON.parse($response.body)
+obj.data.expiredTime = "4086356907000";
+obj.data.pro = true;
+$done({body:JSON.stringify(obj)})
+//https://vocabinnews.com/v1/users/me/pro
