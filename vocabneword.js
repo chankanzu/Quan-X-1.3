@@ -5,7 +5,7 @@ obj={
 	"subscriber": {
 		"entitlements": {
 			"Premium": {
-				"expires_date": "2099-08-27T06:04:06Z",
+				"expires_date": "2020-08-27T06:04:06Z",
 				"product_identifier": "com.monkeytaps.vocabulary.premium.year",
 				"purchase_date": "2020-08-24T06:04:06Z"
 			}
@@ -21,7 +21,7 @@ obj={
 		"subscriptions": {
 			"com.monkeytaps.vocabulary.premium.year": {
 				"billing_issues_detected_at": null,
-				"expires_date": "2099-08-27T06:04:06Z",
+				"expires_date": "2020-08-27T06:04:06Z",
 				"is_sandbox": false,
 				"original_purchase_date": "2020-08-24T06:04:06Z",
 				"period_type": "trial",
@@ -31,6 +31,5 @@ obj={
 			}
 		}
 	}
-
-
+};
 $done({body: JSON.stringify(obj)});
