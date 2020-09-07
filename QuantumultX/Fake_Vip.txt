@@ -336,3 +336,13 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 
 #funchinese
 ^https:\/\/subs\.studycat\.net\/1\/getpurchasedata* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/funchinese.js
+
+#cercube
+^https:\/\/api\.cercube\.com\/v2\/user$  url script-response-body chankanzu/cercube.js
+^https:\/\/api\.cercube\.com\/v2\/user\/login$  url script-response-body chankanzu/cercube2.js
+
+#proshapr3d
+^https:\/\/prod\.api\.shapr3d\.com\/user-management\/profile-with-device$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/shapr3d.js
+
+#pigment
+^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/AAB84B2C-00C2-409A-BDBA-223585EB3253$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/pigment.js
