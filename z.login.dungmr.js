@@ -1,14 +1,14 @@
 //https://api.dungmori.com/api/user/login
 var obj = JSON.parse($response.body);
 obj= {
-	"id": 15,
-	"email": "abc@gmail.com",
+	"id": 7,
+	"email": "dungmori@gmail.com",
 	"phone_number": null,
-	"name": "tran thi kim ngan",
-	"phone": "0387554630",
-	"gender": "Nữ",
-	"avatar": null,
-	"birth": "1992-11-15T17:00:00.000Z",
+	"name": "dungmori",
+	"phone": "0983639675",
+	"gender": "Nam",
+	"avatar": "1524024189_86415_8f14e4_a55c90.jpg",
+	"birth": "1985-08-27T07:41:46.207Z",
 	"platform": "android",
 	"japanese_level": "N5",
 	"address": null,
@@ -20,7 +20,7 @@ obj= {
 	"setting": "{\"last_notify_id\":90401,\"flashcard_auto_play\":0}",
 	"certificate_receive_info": null,
 	"is_verify_phone": 0,
-	"fingerprint": "05e6d779-2d8e-4158-aac0-e83e0fa6249c",
+	"fingerprint": "1df7836c-bc6d-4ab9-a9df-53c7027c1138",
 	"created_at": "2020-02-22T14:03:26.000Z",
 	"is_active_course": 1,
 	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDIxODA5MTYsImlkIjoxNTUyNDgsImlhdCI6MTU5OTU4ODkxNn0.8pqb5-v_Bohu63XglaitM_yFfdMYPYLbyCj8IqQ8tKc"
