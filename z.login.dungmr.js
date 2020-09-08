@@ -2,11 +2,11 @@
 var obj = JSON.parse($response.body);
 obj= {
 	"id": 15,
-	"email": "svcntnk42a1@gmail.com",
+	"email": "abc@gmail.com",
 	"phone_number": null,
-	"name": "Khanh Du",
-	"phone": "0123456789",
-	"gender": "Nam",
+	"name": "tran thi kim ngan",
+	"phone": "0387554630",
+	"gender": "Nữ",
 	"avatar": null,
 	"birth": "1992-11-15T17:00:00.000Z",
 	"platform": "android",
@@ -23,7 +23,7 @@ obj= {
 	"fingerprint": "05e6d779-2d8e-4158-aac0-e83e0fa6249c",
 	"created_at": "2020-02-22T14:03:26.000Z",
 	"is_active_course": 1,
-	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDIxODI3MTEsImlkIjoxMTA0OCwiaWF0IjoxNTk5NTkwNzExfQ.z5WAM0Ka0elJPFbYoRbtZz-q1EyFpyBh9Ksp5jeytSA"
+	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDIxODA5MTYsImlkIjoxNTUyNDgsImlhdCI6MTU5OTU4ODkxNn0.8pqb5-v_Bohu63XglaitM_yFfdMYPYLbyCj8IqQ8tKc"
 };
 
 $done({body: JSON.stringify(obj)});
