@@ -23,7 +23,7 @@ obj= {
 	"fingerprint": "1df7836c-bc6d-4ab9-a9df-53c7027c1138",
 	"created_at": "2020-02-22T14:03:26.000Z",
 	"is_active_course": 1,
-	"token": "eyJpdiI6IjJ6ckFTMU5tcnVCNXEwQzluek10U3c9PSIsInZhbHVlIjoiMXA0TDFteDN1ekE3UUY1RmFPUGc3akxzdVZWRmNVYVRPeTdKZXA0TXdxMnVOdE1mc0ZHNzJwRzFLMno0K011Tm5mRlwvVjVGWmNcL25lclhYR216XC9NaWc9PSIsIm1hYyI6ImViYjYwNjRmNWVhMDlkZjNhY2NhZTRhZjE1YTJmYmJhODY3Y2JkOGFkOTQ0NWU1ODgyYWJmNGY0ZWZkNTc1OWYifQ"
+	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDIxODU5NjYsImlkIjoxNjgzOCwiaWF0IjoxNTk5NTkzOTY2fQ.gG2gmN9N2B9D9_7Yl6sXXNHLwcPMHoAbNRawPNiWk6w"
 };
 
 $done({body: JSON.stringify(obj)});
