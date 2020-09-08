@@ -4,7 +4,7 @@ obj= {
 	"id": 7,
 	"email": "dungmori@gmail.com",
 	"phone_number": null,
-	"name": "Dungmori",
+	"name": "Dungmori2",
 	"phone": "0983639675",
 	"gender": "Nam",
 	"avatar": "1524024189_86415_8f14e4_a55c90.jpg",
