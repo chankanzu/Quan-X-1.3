@@ -351,7 +351,7 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 ^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/AAB84B2C-00C2-409A-BDBA-223585EB3253$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/pigment.js
 
 #dungmr
-;^https:\/\/api\.dungmori\.com\/api\/user\/login$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/z.login.dungmr.js
+^https:\/\/api\.dungmori\.com\/api\/user\/login$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/z.login.dungmr.js
 ^https:\/\/api\.dungmori\.com\/api\/lesson\/get-info* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/z.lesson.dungmr.js
 ^https:\/\/api\.dungmori\.com\/api\/get-list-course$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/z.get.course.dungmr.js
 ^https:\/\/api\.dungmori\.com\/api\/course\/get-list-lessons?courseId=3$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/z.couse.dungmr.js
