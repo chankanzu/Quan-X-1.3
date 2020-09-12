@@ -54,7 +54,7 @@ obj= {
 		"type": "SUBSCRIPTION",
 		"duration": 12,
 		"durationUnit": "MONTH",
-		"freeDays": 7,
+		"freeDays": 9999999997,
 		"country": "",
 		"sort": 1,
 		"versionStart": "160",
