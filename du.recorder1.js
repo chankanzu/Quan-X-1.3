@@ -1,3 +1,4 @@
+//http://bbdd2101-default-recorders-4916-415735771.us-west-2.elb.amazonaws.com/pay/checkAppleSubscribeReceipt*
 var obj = JSON.parse($response.body);
 
 obj= {
