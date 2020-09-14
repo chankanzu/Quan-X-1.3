@@ -9,6 +9,7 @@ obj.data.purchased=
       "pay_inapp": true,
       "is_free": false
     };
+obj.data.show_learn_to_spell=true;
 $done({body: JSON.stringify(obj)});
 
 // Descriptionsp
