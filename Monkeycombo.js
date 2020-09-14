@@ -5,7 +5,7 @@ obj.data.purchased=
       "product_list": [
       ],
       "is_active": true,
-      "time_expire": 0,
+      "time_expire": 1900652191,
       "pay_inapp": true,
       "is_free": false
     };
