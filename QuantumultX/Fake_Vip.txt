@@ -351,6 +351,6 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 ^http:\/\/api\.alokiddy\.com\.vn\/Api\/ServiceMember\/IsReview* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/alokid2.js
 
 #kynforkid
-;^https:\/\/api\.kynaforkids\.vn\/kynaenglish\/user\/get-user-info* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/kynforkid1.js
-;^https:\/\/api\.kynaforkids\.vn\/kynaenglish\/guest\/login* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/kynforkid1.js
+^https:\/\/api\.kynaforkids\.vn\/kynaenglish\/user\/get-user-info* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/kynforkid1.js
+^https:\/\/api\.kynaforkids\.vn\/kynaenglish\/guest\/login* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/kynforkid1.js
 ;^https:\/\/api\.kynaforkids\.vn\/kynaenglish\/default\/get-packages* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/kynforkid2.js
