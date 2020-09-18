@@ -2,10 +2,10 @@ var obj = JSON.parse($response.body);
 obj= {
 	"success": 1,
 	"data": {
-		"UserName": "alokiddyvip1",
+		"UserName": "alokiddyvip",
 		"Password": "E10ADC3949BA59ABBE56E057F20F883E",
 		"FullName": "alokiddyvip1",
-		"Email": "hoanhtk5@gmail.com",
+		"Email": "abcdef@gmail.com",
 		"LastVisited": "\/Date(1600443324710)\/",
 		"Logins": 8899,
 		"Status": 1,
