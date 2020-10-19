@@ -355,10 +355,6 @@ https://payments-p.yoursmartkid.com/api/v1/checkSubscription?udid* url script-re
 ^https:\/\/api\.kynaforkids\.vn\/kynaenglish\/guest\/login* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/kynforkid1.js
 ;^https:\/\/api\.kynaforkids\.vn\/kynaenglish\/default\/get-packages* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/kynforkid2.js
 
-#littlefox
-^https:\/\/apis\.littlefox\.com\/api\/v1\/contents\/song\/* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/littlefox2.js
-^https:\/\/apis\.littlefox\.com\/api\/v1\/contents\/story\/* url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/littlefox2.js
-
 #umbalena
 ^https:\/\/api\.umbalena\.vn\/profile\/user\/$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/umbalena.js
 ^https:\/\/api\.umbalena\.vn\/personal\/package\/info\/$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/umbalena2.js
