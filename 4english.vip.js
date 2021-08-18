@@ -5,7 +5,7 @@ obj= {
 	"data": {
 		"userId": "inrTPiukigOedHWlS0j4d1Rygse2",
 		"shortUserId": "732315",
-		"email": "uservip@4english.com",
+		"email": "user@4english.com",
 		"displayName": "Teddy LOL",
 		"providerData": "Firebase",
 		"expiredTime": "10244015999999",
@@ -21,6 +21,7 @@ obj= {
 			"topics": ["society", "education", "politic"]
 		},
 		"createAt": 1603960581817
+	}
 	}
 };
 
