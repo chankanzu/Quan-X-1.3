@@ -1,5 +1,5 @@
 var obj = JSON.parse($response.body);
-;obj.data.is_premium= true;
+//obj.data.is_premium= true;
 
 obj.data.premium_data.current_plan.active= true;
 obj.data.premium_data.subscription_status="active";
