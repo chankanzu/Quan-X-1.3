@@ -14,16 +14,16 @@ var serviceInfo = {
 
 // Tạo đối tượng user_service_info với các thuộc tính tương tự như service_info, nhưng có giá trị khác
 var userServiceInfo = {
-    service: "Y",
-    story: "Y",
-    original_text: "Y",
-    vocabulary: "Y",
-    quiz: "Y",
-    sentence: "Y",
-    crossword: "Y",
-    translate: "Y",
-    starwords: "Y",
-    ebook: "Y"
+    service: "F",
+    story: "F",
+    original_text: "F",
+    vocabulary: "F",
+    quiz: "F",
+    sentence: "F",
+    crossword: "F",
+    translate: "F",
+    starwords: "F",
+    ebook: "F"
 };
 
 // Gán các đối tượng vào các vị trí thích hợp trong đối tượng đã được phân tích cú pháp
