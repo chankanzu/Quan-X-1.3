@@ -3,18 +3,18 @@ var serviceInfo = {
     service: "F",
     story: "F",
     original_text: "F",
-    vocabulary: "N",
+    vocabulary: "F",
     quiz: "F",
-    sentence: "N",
-    crossword: "N",
-    translate: "N",
-    starwords: "N",
+    sentence: "F",
+    crossword: "F",
+    translate: "F",
+    starwords: "F",
     ebook: "F"
 };
 
 // Tạo đối tượng user_service_info với các thuộc tính tương tự như service_info, nhưng có giá trị khác
 var userServiceInfo = {
-    service: "F",
+    service: "Y",
     story: "Y",
     original_text: "Y",
     vocabulary: "Y",
